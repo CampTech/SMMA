@@ -1,5 +1,53 @@
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamPro/GothamPro-Black.ttf") format('ttf'), url("../fonts/GothamPro/GothamPro-Black.eot") format('eot'), url("../fonts/GothamPro/GothamPro-Black.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTL";
+  src: url("../fonts/TTtravel/TTTravels-Italic.ttf") format('ttf'), url("../fonts/TTtravel/TTTravels-Italic.eot") format('eot'), url("../fonts/TTtravel/TTTravels-Italic.woff") format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTL";
+  src: url("../fonts/TTtravel/TTTravels-Black.ttf") format('ttf'), url("../fonts/TTtravel/TTTravels-Black.eot") format('eot'), url("../fonts/TTtravel/TTTravels-Black.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTL";
+  src: url("../fonts/TTtravel/TTTravels-Light.ttf") format('ttf'), url("../fonts/TTtravel/TTTravels-Light.eot") format('eot'), url("../fonts/TTtravel/TTTravels-Light.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTL";
+  src: url("../fonts/TTtravel/TTTravels-Bold.ttf") format('ttf'), url("../fonts/TTtravel/TTTravels-Bold.eot") format('eot'), url("../fonts/TTtravel/TTTravels-Bold.woff") format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTL";
+  src: url("../fonts/TTtravel/TTTravels-Bold.ttf") format('ttf'), url("../fonts/TTtravel/TTTravels-Bold.eot") format('eot'), url("../fonts/TTtravel/TTTravels-Bold.woff") format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTL";
+  src: url("../fonts/TTtravel/TTTravels-Bold.ttf") format('ttf'), url("../fonts/TTtravel/TTTravels-Bold.eot") format('eot'), url("../fonts/TTtravel/TTTravels-Bold.woff") format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "TTL", sans-serif;
   font-size: 16px;
   font-weight: 400;
   background: rgb(201, 219, 255);
@@ -15,7 +63,7 @@ a {
   max-width: 1407px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 77px;
   box-sizing: border-box;
 }
 

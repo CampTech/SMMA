@@ -1,11 +1,4 @@
 .contact-us-section {
-
-    .container {
-        padding-right: 0;
-        margin-right: 0;
-    }
-
-
     .section-header {
         align-items: flex-start;
 
@@ -33,8 +26,8 @@
                     text-transform: uppercase;
                     color: transparent;
                     white-space: nowrap;
-                    font-family: arial;
-                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+                    font-family: 'GothamPro', sans-serif;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.18);
 
                 }
 
@@ -86,6 +79,12 @@
 
                     &:not(:last-child) {
                         margin-bottom: 33px;
+                    }
+
+                    input::-moz-placeholder, textarea::-moz-placeholder {
+                        font-size: 24px;
+                        line-height: 29px;
+                        text-transform: uppercase;
                     }
 
                     &::placeholder {
