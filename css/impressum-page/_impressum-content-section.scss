@@ -1,0 +1,178 @@
+.impressum-content-section {
+    padding-bottom: 100px;
+
+    .section-header {
+        .section-title {
+            h2 {
+                position: relative;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 43px;
+                text-align: center;
+                text-transform: uppercase;
+
+                &::before {
+                    content: "imprfessum";
+                    position: absolute;
+                    top: -45px;
+                    left: -50%;
+                    z-index: -1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 64px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    font-family: arial;
+                    white-space: nowrap;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 19px;
+                    left: 31px;
+                    z-index: -1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 64px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    font-family: arial;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+                }
+            }
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+
+
+            text-align: center;
+            text-transform: uppercase;
+
+            color: #000000;
+
+            margin-top: 10px;
+        }
+
+        .stars-group {
+            width: 170px;
+            height: 1px;
+            border-top: 1px solid #000;
+            padding-top: 12px;
+            margin-top: -3px;
+        }
+    }
+
+    .section-content {
+        padding-top: 40px;
+
+        .google-maps {
+            overflow: hidden;
+            height: 503px;
+
+            width: 100%;
+            border-radius: 28px;
+            margin-bottom: 42px;
+            @media screen and (max-width: 767px){
+                display: flex;
+                justify-content: center;
+            }
+
+            .map {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .logo-container {
+            margin-bottom: 60px;
+            @media screen and (max-width: 767px){
+                margin-bottom: 10px;
+            }
+        }
+
+        .location-data {
+            display: flex;
+
+            @media screen and (max-width: 767px) {
+                flex-direction: column;
+            }
+
+            h2 {
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 38px;
+                text-transform: uppercase;
+
+                color: #000000;
+            }
+
+            p {
+                font-style: italic;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 125%;
+                /* or 25px */
+
+
+                /* txt */
+
+                color: #000000;
+            }
+
+            .left {
+                flex: 1;
+                padding: 10px;
+                .adress {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+
+
+                    color: #000000;
+
+                }
+
+                .time {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+
+                .mobile-tel{
+                    margin-bottom:16px ;
+                }
+                .mobile-tel,
+                .email {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-transform: uppercase;
+
+                    color: #000000;
+                    i{
+                        margin-right: 5px;
+                    }
+                   
+                }
+            }
+
+            .right {
+                flex: 1;
+                padding:10px;
+            }
+        }
+
+    }
+}

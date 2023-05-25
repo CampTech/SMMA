@@ -1,0 +1,73 @@
+.download-desc {
+    background-color: #fff;
+    padding-bottom: 50px;
+
+    .shadow-title {
+        margin-top: 88px;
+        @media screen and (max-width: 767px){
+            h2{
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .subtitle {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+
+        color: #000000;
+
+    }
+
+    p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+
+        color: #000000;
+
+        @media screen and (max-width: 767px){
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    li {
+        p {
+            margin: 2px;
+        }
+    }
+}
+
+.buttons-download-section {
+    background-color: #fff;
+    background-image: url(../../img/b-up.svg);
+    background-size: cover;
+    height: 245px;
+    padding-bottom: 70px;
+    .container{
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    a {
+        margin-right: 24px;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        margin-bottom: 10px;
+        &:nth-child(2){
+            color: #000;  
+        }
+    }
+}
