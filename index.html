@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Carousel style -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+</head>
+
+<style>
+    .show {
+        background-color: rgba(33, 37, 41, 0.7);
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup {
+        transition: background-color .15s linear;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 100;
+        display: none;
+    }
+    .popup-wrapper {
+        width: 40%;
+        background-color: white;
+    }
+</style>
+
+<body>
+<div class="popup">
+    <div class="popup-wrapper">
+        <div class="popup-header">
+            <div class="close">x</div>
+        </div>
+        <div class="popup-title">
+            Sind Sie auf der Suche nach
+            innovativen Reels-Ideen?
+        </div>
+        <div class="popup-content">
+            <p>
+                SICHERN Sie 15 kreative Reels-Ideen, die Ihre Instagram-Videos auf ein neues Level bringen! Hinterlassen
+                Sie Ihren Namen und Ihre
+                E-Mail für exklusiven Zugang.
+            </p>
+            <form action="">
+                <input name="name" type="text">
+                <input name="email" type="text">
+                <button>jetzt ANFRAGEN</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- Main section -->
+<section class="main-section">
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navigation">
+            <!-- logo -->
+            <a href="./index.html"><img src="img/logo.png" alt="LOGO"></a>
+            <div class="nav-items">
+                <a href="./leistungen.html">LEISTUNGEN</a>
+                <a href="./referenzen.html">referenzen</a>
+                <a href="./impressum.html">Impressum</a>
+                <a href="#" class="button-gradient-bp">kostenlose beratung</a>
+            </div>
+            <!-- Burger -->
+            <div class="menu-toggle">
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+            </div>
+            <nav class="main-navigation">
+                <div class="close-nav"><i class="fa fa-xmark" style="color: #ffffff;"></i></div>
+                <ul>
+                    <li><a href="./leistungen.html">LEISTUNGEN</a></li>
+                    <li><a href="./referenzen.html">referenzen</a></li>
+                    <li><a href="./impressum.html">Impressum</a></li>
+                    <li><a href="#" class="btn button-gradient-bp">kostenlose beratung</a></li>
+                </ul>
+            </nav>
+
+
+        </nav>
+        <!--END Navigation -->
+        <!-- content section -->
+        <div class="main-section-content">
+            <!-- Left side -->
+            <div class="main-section-content-left">
+                <h1>#1 digitale lösungen <br> für ihr unternehmen</h1>
+                <p>Einfach und unkompliziert unterstützen wir Sie dabei, ein erfolgreicher Online-Händler zu werden.
+                </p>
+                <!-- CheckList -->
+                <div class="check-box-list-main">
+                    <!--  -->
+                    <div class="check-box-item-main">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_b_258_10)">
+                                <circle cx="15" cy="15" r="15" fill="white" fill-opacity="0.17"/>
+                                <circle cx="15" cy="15" r="14.5" stroke="url(#paint0_linear_258_10)"/>
+                            </g>
+                            <path d="M8 13.8548L14.6452 20.5L28 1" stroke="white" stroke-linecap="round"/>
+                            <defs>
+                                <filter id="filter0_b_258_10" x="-600" y="-600" width="1230" height="1230"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="300"/>
+                                    <feComposite in2="SourceAlpha" operator="in"
+                                                 result="effect1_backgroundBlur_258_10"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_258_10"
+                                             result="shape"/>
+                                </filter>
+                                <linearGradient id="paint0_linear_258_10" x1="15" y1="0" x2="15" y2="30"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                    <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>Webseiten & Online-Shops</span>
+                    </div>
+                    <!--  -->
+                    <div class="check-box-item-main">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_b_258_10)">
+                                <circle cx="15" cy="15" r="15" fill="white" fill-opacity="0.17"/>
+                                <circle cx="15" cy="15" r="14.5" stroke="url(#paint0_linear_258_10)"/>
+                            </g>
+                            <path d="M8 13.8548L14.6452 20.5L28 1" stroke="white" stroke-linecap="round"/>
+                            <defs>
+                                <filter id="filter0_b_258_10" x="-600" y="-600" width="1230" height="1230"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="300"/>
+                                    <feComposite in2="SourceAlpha" operator="in"
+                                                 result="effect1_backgroundBlur_258_10"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_258_10"
+                                             result="shape"/>
+                                </filter>
+                                <linearGradient id="paint0_linear_258_10" x1="15" y1="0" x2="15" y2="30"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                    <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>Webseiten & Online-Shops</span>
+                    </div>
+                    <!--  -->
+                    <div class="check-box-item-main">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_b_258_10)">
+                                <circle cx="15" cy="15" r="15" fill="white" fill-opacity="0.17"/>
+                                <circle cx="15" cy="15" r="14.5" stroke="url(#paint0_linear_258_10)"/>
+                            </g>
+                            <path d="M8 13.8548L14.6452 20.5L28 1" stroke="white" stroke-linecap="round"/>
+                            <defs>
+                                <filter id="filter0_b_258_10" x="-600" y="-600" width="1230" height="1230"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="300"/>
+                                    <feComposite in2="SourceAlpha" operator="in"
+                                                 result="effect1_backgroundBlur_258_10"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_258_10"
+                                             result="shape"/>
+                                </filter>
+                                <linearGradient id="paint0_linear_258_10" x1="15" y1="0" x2="15" y2="30"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                    <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>Webseiten & Online-Shops</span>
+                    </div>
+                    <!--  -->
+                </div>
+                <!--END CheckList -->
+                <div class="button-group-main">
+                    <a class="button-gradient-bp" href="#">JETZT ANRUFEN</a>
+                    <a class="button-gradient-bb" href="#">anfrage senden</a>
+                </div>
+            </div>
+            <!-- Right side -->
+            <div class="main-section-content-right">
+                <img src="img/mainimg.png" alt="">
+            </div>
+        </div>
+        <!--end content section -->
+
+    </div>
+
+</section>
+<!--End Main section -->
+
+<!-- Success section -->
+<section class="success-section">
+    <div class="bottom-lines">
+        <svg viewBox="0 0 1600 314" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                    d="M-571 90.171L1554.36 90.171C1554.36 90.171 1798.5 197.659 1540.95 289.702C1283.4 381.744 974.673 176.139 542.381 266.129C110.089 356.12 -571 90.171 -571 90.171Z"
+                    fill="#C1CFFF" fill-opacity="0.67"/>
+            <path
+                    d="M1980.5 44L11.0694 44C11.0694 44 -215.156 141.598 23.5 225.171C262.156 308.744 298.5 124.297 978.5 225.171C1658.5 326.045 1980.5 44 1980.5 44Z"
+                    fill="#A3ACFF"/>
+            <path
+                    d="M1980.5 4.60326e-06L11.0694 0C11.0694 0 -215.156 97.2365 23.5 180.5C262.156 263.763 298.5 80 978.5 180.5C1658.5 281 1980.5 4.60326e-06 1980.5 4.60326e-06Z"
+                    fill="#161220"/>
+        </svg>
+
+    </div>
+    <div class="success-section-content">
+        <div class="success-section-content-top">
+            <div class="section-header">
+                <div class="section-title">
+                    <h2>Ihr Erfolg ist <span style="color: #4E10FF;">unser Erfolg</span></h2>
+                </div>
+                <div class="stars-group">
+                    <svg width="151" height="30" viewBox="0 0 151 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M13.6617 2.92705C13.961 2.00574 15.2644 2.00574 15.5638 2.92705L17.669 9.40616C17.8029 9.81819 18.1868 10.0971 18.62 10.0971H25.4326C26.4013 10.0971 26.8041 11.3368 26.0204 11.9062L20.5089 15.9105C20.1584 16.1651 20.0118 16.6165 20.1456 17.0285L22.2508 23.5076C22.5502 24.4289 21.4957 25.1951 20.712 24.6257L15.2005 20.6213C14.85 20.3667 14.3754 20.3667 14.0249 20.6213L8.51348 24.6257C7.72977 25.1951 6.67529 24.4289 6.97464 23.5076L9.07983 17.0285C9.2137 16.6165 9.06705 16.1651 8.71656 15.9105L3.2051 11.9062C2.42138 11.3368 2.82416 10.0971 3.79288 10.0971H10.6054C11.0386 10.0971 11.4226 9.81819 11.5565 9.40616L13.6617 2.92705Z"
+                                fill="#450AFF"/>
+                        <path
+                                d="M43.887 2.92705C44.1864 2.00574 45.4898 2.00574 45.7891 2.92705L47.8943 9.40616C48.0282 9.81819 48.4121 10.0971 48.8454 10.0971H55.6579C56.6266 10.0971 57.0294 11.3368 56.2457 11.9062L50.7342 15.9105C50.3838 16.1651 50.2371 16.6165 50.371 17.0285L52.4762 23.5076C52.7755 24.4289 51.721 25.1951 50.9373 24.6257L45.4259 20.6213C45.0754 20.3667 44.6008 20.3667 44.2503 20.6213L38.7388 24.6257C37.9551 25.1951 36.9006 24.4289 37.2 23.5076L39.3052 17.0285C39.439 16.6165 39.2924 16.1651 38.9419 15.9105L33.4304 11.9062C32.6467 11.3368 33.0495 10.0971 34.0182 10.0971H40.8308C41.264 10.0971 41.6479 9.81819 41.7818 9.40616L43.887 2.92705Z"
+                                fill="#450AFF"/>
+                        <path
+                                d="M74.1124 2.92705C74.4117 2.00574 75.7151 2.00574 76.0145 2.92705L78.1197 9.40616C78.2535 9.81819 78.6375 10.0971 79.0707 10.0971H85.8833C86.852 10.0971 87.2548 11.3368 86.471 11.9062L80.9596 15.9105C80.6091 16.1651 80.4624 16.6165 80.5963 17.0285L82.7015 23.5076C83.0009 24.4289 81.9464 25.1951 81.1627 24.6257L75.6512 20.6213C75.3007 20.3667 74.8261 20.3667 74.4756 20.6213L68.9642 24.6257C68.1805 25.1951 67.126 24.4289 67.4253 23.5076L69.5305 17.0285C69.6644 16.6165 69.5177 16.1651 69.1672 15.9105L63.6558 11.9062C62.8721 11.3368 63.2748 10.0971 64.2436 10.0971H71.0561C71.4893 10.0971 71.8733 9.81819 72.0072 9.40616L74.1124 2.92705Z"
+                                fill="#450AFF"/>
+                        <path
+                                d="M104.338 2.92705C104.637 2.00574 105.94 2.00574 106.24 2.92705L108.345 9.40616C108.479 9.81819 108.863 10.0971 109.296 10.0971H116.109C117.077 10.0971 117.48 11.3368 116.696 11.9062L111.185 15.9105C110.834 16.1651 110.688 16.6165 110.822 17.0285L112.927 23.5076C113.226 24.4289 112.172 25.1951 111.388 24.6257L105.877 20.6213C105.526 20.3667 105.051 20.3667 104.701 20.6213L99.1895 24.6257C98.4058 25.1951 97.3513 24.4289 97.6507 23.5076L99.7559 17.0285C99.8897 16.6165 99.7431 16.1651 99.3926 15.9105L93.8811 11.9062C93.0974 11.3368 93.5002 10.0971 94.4689 10.0971H101.281C101.715 10.0971 102.099 9.81819 102.233 9.40616L104.338 2.92705Z"
+                                fill="#450AFF"/>
+                        <path
+                                d="M134.563 2.92705C134.862 2.00574 136.166 2.00574 136.465 2.92705L138.57 9.40616C138.704 9.81819 139.088 10.0971 139.521 10.0971H146.334C147.303 10.0971 147.705 11.3368 146.922 11.9062L141.41 15.9105C141.06 16.1651 140.913 16.6165 141.047 17.0285L143.152 23.5076C143.452 24.4289 142.397 25.1951 141.613 24.6257L136.102 20.6213C135.751 20.3667 135.277 20.3667 134.926 20.6213L129.415 24.6257C128.631 25.1951 127.577 24.4289 127.876 23.5076L129.981 17.0285C130.115 16.6165 129.968 16.1651 129.618 15.9105L124.106 11.9062C123.323 11.3368 123.726 10.0971 124.694 10.0971H131.507C131.94 10.0971 132.324 9.81819 132.458 9.40616L134.563 2.92705Z"
+                                fill="#450AFF"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="line">
+
+            </div>
+            <div class="container">
+                <div class="item">
+                    <img src="./img/circle1.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/circle2.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/circle3.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./img/circle4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- our services -->
+<section class="services-section">
+    <div class="container">
+        <!--  -->
+        <div class="section-header">
+            <div class="section-title">
+                <h2>Ihre Bedürfnisse <span style="color: #4E10FF;">unsere Leistungen</span></h2>
+            </div>
+            <div class="shortline"></div>
+            <p class="section-subtitle">Durch eine optimierte Website-Performance und zielgerichtetes Marketing
+                maximieren wir Ihren Erfolg
+                und verbinden Sie effektiv mit potenziellen Kunden.</p>
+        </div>
+
+        <div class="section-content">
+            <div class="card-list">
+                <!-- card 1 -->
+                <div class="card-item">
+                    <div class="item-image">
+                        <img src="./img/service-1.png" alt="service">
+                    </div>
+                    <div class="item-text">
+                        <div class="color-box">
+                            <div class="box-content">
+                                <h2>WEBSeITEN & ONLINE-SHOPS</h2>
+                                <p>Ihre Webseite oder Ihr Webshop soll:</p>
+                                <div class="check-box-group">
+                                    <div class="check-box-item">
+                                        <div class="img">
+                                            <svg viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g filter="url(#filter0_b_511_87)">
+                                                    <ellipse cx="14.5912" cy="15.3453" rx="14.5912" ry="15.3453"
+                                                             fill="#DB00FF" fill-opacity="0.17"/>
+                                                    <path
+                                                            d="M28.6824 15.3453C28.6824 23.5681 22.3501 30.1905 14.5912 30.1905C6.83228 30.1905 0.5 23.5681 0.5 15.3453C0.5 7.12241 6.83228 0.5 14.5912 0.5C22.3501 0.5 28.6824 7.12241 28.6824 15.3453Z"
+                                                            stroke="url(#paint0_linear_511_87)"/>
+                                                </g>
+                                                <path d="M7.78198 14.1737L14.2461 20.9718L27.2369 1.02295"
+                                                      stroke="black" stroke-linecap="round"/>
+                                                <defs>
+                                                    <filter id="filter0_b_511_87" x="-600" y="-600" width="1229.18"
+                                                            height="1230.69" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                        <feGaussianBlur in="BackgroundImageFix"
+                                                                        stdDeviation="300"/>
+                                                        <feComposite in2="SourceAlpha" operator="in"
+                                                                     result="effect1_backgroundBlur_511_87"/>
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                                 in2="effect1_backgroundBlur_511_87" result="shape"/>
+                                                    </filter>
+                                                    <linearGradient id="paint0_linear_511_87" x1="14.5912" y1="0"
+                                                                    x2="14.5912" y2="30.6905"
+                                                                    gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                                        <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <p>
+                                            <b>Zielgruppe genau kennen</b> und verstehen, bevor Angebot präsentiert
+                                            wird.
+                                        </p>
+                                    </div>
+                                    <div class="check-box-item">
+                                        <div class="img">
+                                            <svg viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g filter="url(#filter0_b_511_87)">
+                                                    <ellipse cx="14.5912" cy="15.3453" rx="14.5912" ry="15.3453"
+                                                             fill="#DB00FF" fill-opacity="0.17"/>
+                                                    <path
+                                                            d="M28.6824 15.3453C28.6824 23.5681 22.3501 30.1905 14.5912 30.1905C6.83228 30.1905 0.5 23.5681 0.5 15.3453C0.5 7.12241 6.83228 0.5 14.5912 0.5C22.3501 0.5 28.6824 7.12241 28.6824 15.3453Z"
+                                                            stroke="url(#paint0_linear_511_87)"/>
+                                                </g>
+                                                <path d="M7.78198 14.1737L14.2461 20.9718L27.2369 1.02295"
+                                                      stroke="black" stroke-linecap="round"/>
+                                                <defs>
+                                                    <filter id="filter0_b_511_87" x="-600" y="-600" width="1229.18"
+                                                            height="1230.69" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                        <feGaussianBlur in="BackgroundImageFix"
+                                                                        stdDeviation="300"/>
+                                                        <feComposite in2="SourceAlpha" operator="in"
+                                                                     result="effect1_backgroundBlur_511_87"/>
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                                 in2="effect1_backgroundBlur_511_87" result="shape"/>
+                                                    </filter>
+                                                    <linearGradient id="paint0_linear_511_87" x1="14.5912" y1="0"
+                                                                    x2="14.5912" y2="30.6905"
+                                                                    gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                                        <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <p>
+                                            Kundenreferenzen und
+                                            Erfolgsgeschichten nutzen, um
+                                            <b>Glaubwürdigkeit zu stärken</b>.
+                                        </p>
+                                    </div>
+                                    <div class="check-box-item">
+                                        <div class="img">
+                                            <svg viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g filter="url(#filter0_b_511_87)">
+                                                    <ellipse cx="14.5912" cy="15.3453" rx="14.5912" ry="15.3453"
+                                                             fill="#DB00FF" fill-opacity="0.17"/>
+                                                    <path
+                                                            d="M28.6824 15.3453C28.6824 23.5681 22.3501 30.1905 14.5912 30.1905C6.83228 30.1905 0.5 23.5681 0.5 15.3453C0.5 7.12241 6.83228 0.5 14.5912 0.5C22.3501 0.5 28.6824 7.12241 28.6824 15.3453Z"
+                                                            stroke="url(#paint0_linear_511_87)"/>
+                                                </g>
+                                                <path d="M7.78198 14.1737L14.2461 20.9718L27.2369 1.02295"
+                                                      stroke="black" stroke-linecap="round"/>
+                                                <defs>
+                                                    <filter id="filter0_b_511_87" x="-600" y="-600" width="1229.18"
+                                                            height="1230.69" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                        <feGaussianBlur in="BackgroundImageFix"
+                                                                        stdDeviation="300"/>
+                                                        <feComposite in2="SourceAlpha" operator="in"
+                                                                     result="effect1_backgroundBlur_511_87"/>
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                                 in2="effect1_backgroundBlur_511_87" result="shape"/>
+                                                    </filter>
+                                                    <linearGradient id="paint0_linear_511_87" x1="14.5912" y1="0"
+                                                                    x2="14.5912" y2="30.6905"
+                                                                    gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                                        <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <p>
+                                            Klare Handlungsaufforderung einbinden,
+                                            um Kunden zum <b>Kauf zu ermutigen</b>.
+                                        </p>
+                                    </div>
+                                </div>
+                                <p>Wir kümmern uns darum <b>Ihre Website oder Online-Shop</b> für Sie zu erstellen!
+                                </p>
+                                <div class="btn"><a class="btn button-gradient-bp" href="#">JETZT ANFRAGE
+                                    STELLEN</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card-item">
+                    <div class="item-image">
+                        <img src="./img/service-2.png" alt="service">
+                    </div>
+                    <div class="item-text">
+                        <div class="color-box">
+                            <div class="box-content">
+                                <h2>PERFORMANCE MARKETING</h2>
+                                <p>Sie suchen nach:</p>
+                                <div class="check-box-group">
+                                    <div class="check-box-item">
+                                        <div class="img">
+                                            <svg viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g filter="url(#filter0_b_511_87)">
+                                                    <ellipse cx="14.5912" cy="15.3453" rx="14.5912" ry="15.3453"
+                                                             fill="#DB00FF" fill-opacity="0.17"/>
+                                                    <path
+                                                            d="M28.6824 15.3453C28.6824 23.5681 22.3501 30.1905 14.5912 30.1905C6.83228 30.1905 0.5 23.5681 0.5 15.3453C0.5 7.12241 6.83228 0.5 14.5912 0.5C22.3501 0.5 28.6824 7.12241 28.6824 15.3453Z"
+                                                            stroke="url(#paint0_linear_511_87)"/>
+                                                </g>
+                                                <path d="M7.78198 14.1737L14.2461 20.9718L27.2369 1.02295"
+                                                      stroke="black" stroke-linecap="round"/>
+                                                <defs>
+                                                    <filter id="filter0_b_511_87" x="-600" y="-600" width="1229.18"
+                                                            height="1230.69" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                        <feGaussianBlur in="BackgroundImageFix"
+                                                                        stdDeviation="300"/>
+                                                        <feComposite in2="SourceAlpha" operator="in"
+                                                                     result="effect1_backgroundBlur_511_87"/>
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                                 in2="effect1_backgroundBlur_511_87" result="shape"/>
+                                                    </filter>
+                                                    <linearGradient id="paint0_linear_511_87" x1="14.5912" y1="0"
+                                                                    x2="14.5912" y2="30.6905"
+                                                                    gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                                        <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <p>
+                                            <b>Gewinnung neuer Kunden</b> durch
+                                            Facebook Ads, Instagram Ads,
+                                            TikTok Ads und Google Ads
+                                        </p>
+                                    </div>
+                                    <div class="check-box-item">
+                                        <div class="img">
+                                            <svg viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g filter="url(#filter0_b_511_87)">
+                                                    <ellipse cx="14.5912" cy="15.3453" rx="14.5912" ry="15.3453"
+                                                             fill="#DB00FF" fill-opacity="0.17"/>
+                                                    <path
+                                                            d="M28.6824 15.3453C28.6824 23.5681 22.3501 30.1905 14.5912 30.1905C6.83228 30.1905 0.5 23.5681 0.5 15.3453C0.5 7.12241 6.83228 0.5 14.5912 0.5C22.3501 0.5 28.6824 7.12241 28.6824 15.3453Z"
+                                                            stroke="url(#paint0_linear_511_87)"/>
+                                                </g>
+                                                <path d="M7.78198 14.1737L14.2461 20.9718L27.2369 1.02295"
+                                                      stroke="black" stroke-linecap="round"/>
+                                                <defs>
+                                                    <filter id="filter0_b_511_87" x="-600" y="-600" width="1229.18"
+                                                            height="1230.69" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                        <feGaussianBlur in="BackgroundImageFix"
+                                                                        stdDeviation="300"/>
+                                                        <feComposite in2="SourceAlpha" operator="in"
+                                                                     result="effect1_backgroundBlur_511_87"/>
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                                 in2="effect1_backgroundBlur_511_87" result="shape"/>
+                                                    </filter>
+                                                    <linearGradient id="paint0_linear_511_87" x1="14.5912" y1="0"
+                                                                    x2="14.5912" y2="30.6905"
+                                                                    gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                                        <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <p>
+                                            Wachstum Ihres Unternehmes in
+                                            Zusammenhang mit der
+                                            <b>Umsatzsteigerung</b>
+                                        </p>
+                                    </div>
+                                    <div class="check-box-item">
+                                        <div class="img">
+                                            <svg viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g filter="url(#filter0_b_511_87)">
+                                                    <ellipse cx="14.5912" cy="15.3453" rx="14.5912" ry="15.3453"
+                                                             fill="#DB00FF" fill-opacity="0.17"/>
+                                                    <path
+                                                            d="M28.6824 15.3453C28.6824 23.5681 22.3501 30.1905 14.5912 30.1905C6.83228 30.1905 0.5 23.5681 0.5 15.3453C0.5 7.12241 6.83228 0.5 14.5912 0.5C22.3501 0.5 28.6824 7.12241 28.6824 15.3453Z"
+                                                            stroke="url(#paint0_linear_511_87)"/>
+                                                </g>
+                                                <path d="M7.78198 14.1737L14.2461 20.9718L27.2369 1.02295"
+                                                      stroke="black" stroke-linecap="round"/>
+                                                <defs>
+                                                    <filter id="filter0_b_511_87" x="-600" y="-600" width="1229.18"
+                                                            height="1230.69" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                        <feGaussianBlur in="BackgroundImageFix"
+                                                                        stdDeviation="300"/>
+                                                        <feComposite in2="SourceAlpha" operator="in"
+                                                                     result="effect1_backgroundBlur_511_87"/>
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                                 in2="effect1_backgroundBlur_511_87" result="shape"/>
+                                                    </filter>
+                                                    <linearGradient id="paint0_linear_511_87" x1="14.5912" y1="0"
+                                                                    x2="14.5912" y2="30.6905"
+                                                                    gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                                        <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <p>
+                                            Pfiege Ihrer Instagram-Seite
+                                        </p>
+                                    </div>
+                                </div>
+                                <p>Lassen Sie uns Ihnen helfen, das
+                                    <b>Wachstum Ihres Unternehmens</b> zu
+                                    ermöglichen!
+                                </p>
+                                <div class="btn"><a class="btn button-gradient-bp" href="#">JETZT ANFRAGE
+                                    STELLEN</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card 3 -->
+                <div class="card-item">
+                    <div class="item-image">
+                        <img src="./img/service-3.png" alt="service">
+                    </div>
+                    <div class="item-text">
+                        <div class="color-box">
+                            <div class="box-content">
+                                <h2>E-commerce OPTIMIERUNG</h2>
+                                <p>Sie haben eine bestehende Website,
+                                    aber sie bringt keine neuen Besucher</p>
+                                <p>Lassen sie uns für Sie:</p>
+
+                                <div class="check-box-group">
+                                    <div class="check-box-item">
+                                        <div class="img">
+                                            <svg viewBox="0 0 30 31" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <g filter="url(#filter0_b_511_87)">
+                                                    <ellipse cx="14.5912" cy="15.3453" rx="14.5912" ry="15.3453"
+                                                             fill="#DB00FF" fill-opacity="0.17"/>
+                                                    <path
+                                                            d="M28.6824 15.3453C28.6824 23.5681 22.3501 30.1905 14.5912 30.1905C6.83228 30.1905 0.5 23.5681 0.5 15.3453C0.5 7.12241 6.83228 0.5 14.5912 0.5C22.3501 0.5 28.6824 7.12241 28.6824 15.3453Z"
+                                                            stroke="url(#paint0_linear_511_87)"/>
+                                                </g>
+                                                <path d="M7.78198 14.1737L14.2461 20.9718L27.2369 1.02295"
+                                                      stroke="black" stroke-linecap="round"/>
+                                                <defs>
+                                                    <filter id="filter0_b_511_87" x="-600" y="-600" width="1229.18"
+                                                            height="1230.69" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                        <feGaussianBlur in="BackgroundImageFix"
+                                                                        stdDeviation="300"/>
+                                                        <feComposite in2="SourceAlpha" operator="in"
+                                                                     result="effect1_backgroundBlur_511_87"/>
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                                 in2="effect1_backgroundBlur_511_87" result="shape"/>
+                                                    </filter>
+                                                    <linearGradient id="paint0_linear_511_87" x1="14.5912" y1="0"
+                                                                    x2="14.5912" y2="30.6905"
+                                                                    gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                                        <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <p>
+                                            Website-Analyse durchzuführen
+                                        </p>
+                                    </div>
+                                    <div class="check-box-item">
+                                        <div class="img">
+                                            <svg viewBox="0 0 30 31" fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <g filter="url(#filter0_b_511_87)">
+                                                    <ellipse cx="14.5912" cy="15.3453" rx="14.5912" ry="15.3453"
+                                                             fill="#DB00FF" fill-opacity="0.17"/>
+                                                    <path
+                                                            d="M28.6824 15.3453C28.6824 23.5681 22.3501 30.1905 14.5912 30.1905C6.83228 30.1905 0.5 23.5681 0.5 15.3453C0.5 7.12241 6.83228 0.5 14.5912 0.5C22.3501 0.5 28.6824 7.12241 28.6824 15.3453Z"
+                                                            stroke="url(#paint0_linear_511_87)"/>
+                                                </g>
+                                                <path d="M7.78198 14.1737L14.2461 20.9718L27.2369 1.02295"
+                                                      stroke="black" stroke-linecap="round"/>
+                                                <defs>
+                                                    <filter id="filter0_b_511_87" x="-600" y="-600" width="1229.18"
+                                                            height="1230.69" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                        <feGaussianBlur in="BackgroundImageFix"
+                                                                        stdDeviation="300"/>
+                                                        <feComposite in2="SourceAlpha" operator="in"
+                                                                     result="effect1_backgroundBlur_511_87"/>
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                                 in2="effect1_backgroundBlur_511_87" result="shape"/>
+                                                    </filter>
+                                                    <linearGradient id="paint0_linear_511_87" x1="14.5912" y1="0"
+                                                                    x2="14.5912" y2="30.6905"
+                                                                    gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                                        <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <p>
+                                            Optimierungsmöglichkeiten anzuwenden
+                                        </p>
+                                    </div>
+                                    <div class="check-box-item">
+                                        <div class="img">
+                                            <svg viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g filter="url(#filter0_b_511_87)">
+                                                    <ellipse cx="14.5912" cy="15.3453" rx="14.5912" ry="15.3453"
+                                                             fill="#DB00FF" fill-opacity="0.17"/>
+                                                    <path
+                                                            d="M28.6824 15.3453C28.6824 23.5681 22.3501 30.1905 14.5912 30.1905C6.83228 30.1905 0.5 23.5681 0.5 15.3453C0.5 7.12241 6.83228 0.5 14.5912 0.5C22.3501 0.5 28.6824 7.12241 28.6824 15.3453Z"
+                                                            stroke="url(#paint0_linear_511_87)"/>
+                                                </g>
+                                                <path d="M7.78198 14.1737L14.2461 20.9718L27.2369 1.02295"
+                                                      stroke="black" stroke-linecap="round"/>
+                                                <defs>
+                                                    <filter id="filter0_b_511_87" x="-600" y="-600" width="1229.18"
+                                                            height="1230.69" filterUnits="userSpaceOnUse"
+                                                            color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                        <feGaussianBlur in="BackgroundImageFix"
+                                                                        stdDeviation="300"/>
+                                                        <feComposite in2="SourceAlpha" operator="in"
+                                                                     result="effect1_backgroundBlur_511_87"/>
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                                 in2="effect1_backgroundBlur_511_87" result="shape"/>
+                                                    </filter>
+                                                    <linearGradient id="paint0_linear_511_87" x1="14.5912" y1="0"
+                                                                    x2="14.5912" y2="30.6905"
+                                                                    gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#4900E5" stop-opacity="0.54"/>
+                                                        <stop offset="1" stop-color="#9B1DC7" stop-opacity="0.54"/>
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <p>
+                                            Aus Besuchern neu Kunden generieren
+                                        </p>
+                                    </div>
+                                </div>
+                                <p>Wir kümmern uns darum <b>Ihre Website oder Online-Shop</b> für Sie zu erstellen!
+                                </p>
+                                <div class="btn"><a class=" button-gradient-bp" href="#">JETZT ANFRAGE STELLEN</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trust us section -->
+<section class="trust-us-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-title">
+                <h2>UNTERNEHMEN, DIE UNS VERTRAUEN</h2>
+            </div>
+            <div class="shortline"></div>
+            <p class="section-subtitle">Durch eine optimierte Website-Performance und zielgerichtetes Marketing
+                maximieren wir Ihren Erfolg und verbinden Sie effektiv mit potenziellen Kunden.</p>
+        </div>
+
+        <div class="section-content">
+            <div class="slider">
+                <div class="slides">
+                    <img src="./img/slide-1.png" alt="Slide 1">
+                    <img src="./img/slide-1.png" alt="Slide 2">
+                    <img src="./img/slide-1.png" alt="Slide 3">
+                    <img src="./img/slide-1.png" alt="Slide 3">
+                </div>
+                <div class="circle-buttons"></div>
+            </div>
+            <div class="socials-network">
+                <svg viewBox="0 0 343 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                            d="M247.966 48.2087H218.408C217.921 48.2124 217.455 48.4076 217.11 48.7523C216.765 49.097 216.57 49.5634 216.566 50.0509V79.6082C216.57 80.0956 216.765 80.5621 217.11 80.9067C217.455 81.2514 217.921 81.4467 218.408 81.4503H234.323V68.5969H230.001V63.5691H234.323V59.871C234.323 55.5773 236.941 53.2365 240.791 53.2365C242.079 53.2365 243.367 53.2365 244.655 53.4304V57.9042H242.01C239.918 57.9042 239.517 58.9014 239.517 60.3558V63.5553H244.503L243.852 68.583H239.517V81.4503H247.966C248.453 81.4467 248.92 81.2514 249.264 80.9067C249.609 80.5621 249.804 80.0956 249.808 79.6082V50.0509C249.804 49.5634 249.609 49.097 249.264 48.7523C248.92 48.4076 248.453 48.2124 247.966 48.2087Z"
+                            fill="url(#paint0_linear_542_174)"/>
+                    <path
+                            d="M186.157 48.002H159.489C158.782 48.002 158.104 48.2829 157.604 48.783C157.103 49.2831 156.823 49.9614 156.823 50.6687V77.3364C156.823 78.0437 157.103 78.722 157.604 79.2221C158.104 79.7222 158.782 80.0032 159.489 80.0032H186.157C186.864 80.0032 187.543 79.7222 188.043 79.2221C188.543 78.722 188.824 78.0437 188.824 77.3364V50.6687C188.824 49.9614 188.543 49.2831 188.043 48.783C187.543 48.2829 186.864 48.002 186.157 48.002ZM172.823 73.3362C169.146 73.3362 166.156 70.9445 166.156 68.0027C166.156 67.6491 166.297 67.3099 166.547 67.0599C166.797 66.8098 167.136 66.6693 167.49 66.6693C167.843 66.6693 168.182 66.8098 168.432 67.0599C168.682 67.3099 168.823 67.6491 168.823 68.0027C168.823 69.4478 170.656 70.6695 172.823 70.6695C174.99 70.6695 176.823 69.4478 176.823 68.0027C176.823 66.4226 175.388 65.836 172.343 64.9593C169.718 64.2026 166.453 63.2609 166.453 60.0024C166.453 56.9623 169.191 54.6689 172.823 54.6689C175.443 54.6689 177.687 55.8856 178.677 57.8357C178.762 57.9924 178.815 58.1647 178.833 58.3424C178.85 58.5201 178.832 58.6995 178.779 58.8699C178.726 59.0404 178.639 59.1985 178.524 59.3348C178.409 59.4711 178.267 59.5828 178.108 59.6634C177.949 59.744 177.775 59.7918 177.597 59.804C177.418 59.8161 177.24 59.7924 177.071 59.7341C176.902 59.6759 176.747 59.5844 176.614 59.465C176.481 59.3456 176.374 59.2007 176.298 59.039C175.763 57.9923 174.432 57.3356 172.823 57.3356C170.711 57.3356 169.12 58.4823 169.12 60.0024C169.12 61.1691 170.62 61.6858 173.081 62.3958C175.787 63.1692 179.49 64.2442 179.49 68.0027C179.49 70.9445 176.5 73.3362 172.823 73.3362Z"
+                            fill="url(#paint1_linear_542_174)"/>
+                    <path
+                            d="M132.534 74.293C131.351 75.4047 129.589 75.578 127.887 75.7464C126.836 75.8497 125.749 75.958 125.156 76.2847C124.594 76.5947 124.014 77.3881 123.454 78.1548C122.554 79.3898 121.532 80.7882 119.915 81.2016C119.554 81.2934 119.182 81.3388 118.809 81.3366C117.662 81.3366 116.525 80.9499 115.492 80.5982C114.567 80.2832 113.692 79.9848 112.957 79.9848C112.222 79.9848 111.347 80.2832 110.422 80.5982C109.057 81.0632 107.51 81.5982 105.998 81.2016C104.38 80.7882 103.358 79.3898 102.458 78.1548C101.898 77.3881 101.318 76.5947 100.756 76.2847C100.163 75.9514 99.0763 75.8497 98.0263 75.7464C96.3229 75.5797 94.5611 75.4047 93.3778 74.293C93.2114 74.1368 93.088 73.9405 93.0192 73.7229C92.9504 73.5053 92.9386 73.2737 92.9849 73.0503C93.0312 72.8268 93.1341 72.619 93.2838 72.4467C93.4334 72.2744 93.6247 72.1434 93.8394 72.0662C93.8544 72.0662 95.9795 71.2562 98.0663 68.8994C99.3585 67.4216 100.362 65.7142 101.023 63.8659L97.7879 62.5742C97.6253 62.5085 97.4772 62.4115 97.3521 62.2886C97.227 62.1657 97.1273 62.0193 97.0587 61.8579C96.9202 61.5319 96.917 61.1642 97.0496 60.8358C97.1822 60.5073 97.4398 60.245 97.7658 60.1066C98.0919 59.9681 98.4595 59.9648 98.788 60.0974L101.763 61.2891C102.124 59.5503 102.3 57.7781 102.288 56.0023C102.288 53.1732 103.412 50.46 105.412 48.4595C107.413 46.4591 110.126 45.3352 112.955 45.3352C115.784 45.3352 118.497 46.4591 120.498 48.4595C122.498 50.46 123.622 53.1732 123.622 56.0023C123.611 57.7792 123.79 59.5522 124.157 61.2908L127.122 60.0974C127.285 60.0318 127.459 59.9988 127.634 60.0003C127.81 60.0019 127.983 60.038 128.144 60.1066C128.306 60.1751 128.452 60.2748 128.575 60.3999C128.698 60.5251 128.795 60.6732 128.861 60.8358C128.926 60.9984 128.959 61.1724 128.958 61.3478C128.956 61.5231 128.92 61.6965 128.852 61.8579C128.783 62.0193 128.683 62.1657 128.558 62.2886C128.433 62.4115 128.285 62.5085 128.122 62.5742L124.906 63.8609C127.252 70.2528 132.013 72.0429 132.073 72.0662C132.287 72.1434 132.479 72.2744 132.628 72.4467C132.778 72.619 132.881 72.8268 132.927 73.0503C132.973 73.2737 132.962 73.5053 132.893 73.7229C132.824 73.9405 132.701 74.1368 132.534 74.293Z"
+                            fill="url(#paint2_linear_542_174)"/>
+                    <path
+                            d="M321.501 4.00049C318.046 4.00049 314.668 5.01711 311.796 6.92179C308.923 8.82647 306.684 11.5337 305.362 14.701C304.04 17.8684 303.694 21.3537 304.368 24.7162C305.042 28.0786 306.706 31.1673 309.149 33.5915C311.592 36.0157 314.704 37.6666 318.093 38.3354C321.481 39.0042 324.993 38.661 328.185 37.349C331.377 36.037 334.105 33.8153 336.025 30.9647C337.944 28.1142 338.969 24.7628 338.969 21.3345C338.964 16.7387 337.122 12.3326 333.847 9.08286C330.572 5.83315 326.132 4.00534 321.501 4.00049ZM333.801 28.3781C332.855 29.8781 331.394 30.6682 329.575 30.6682C326.093 30.6682 323.728 26.4497 321.223 21.9828C319.396 18.7227 317.122 14.6676 315.22 14.6676C313.133 14.6676 310.751 19.4811 310.751 23.7029C310.751 25.0796 311.003 26.203 311.48 26.963C311.927 27.668 312.545 28.0014 313.426 28.0014C314.448 28.0014 315.697 26.8347 317.246 24.4163C317.442 24.1296 317.744 23.9301 318.086 23.86C318.428 23.79 318.784 23.855 319.079 24.0412C319.374 24.2275 319.584 24.5202 319.664 24.8575C319.745 25.1948 319.691 25.5501 319.512 25.848C316.771 30.1198 314.819 30.6682 313.426 30.6682C311.607 30.6682 310.146 29.8765 309.2 28.3781C308.456 27.198 308.063 25.5813 308.063 23.7112C308.093 21.0932 308.725 18.5164 309.911 16.1776C311.312 13.4842 313.198 12.0008 315.22 12.0008C318.702 12.0008 321.067 16.2193 323.572 20.6861C325.399 23.9446 327.673 28.0014 329.575 28.0014C330.456 28.0014 331.075 27.668 331.521 26.963C331.998 26.208 332.25 25.0796 332.25 23.7029C332.25 19.4811 329.869 14.6676 327.781 14.6676C327.21 14.6676 326.546 15.0526 325.809 15.8143C325.687 15.9406 325.54 16.0417 325.379 16.1119C325.217 16.1822 325.043 16.2201 324.866 16.2236C324.69 16.2271 324.514 16.196 324.35 16.1322C324.186 16.0684 324.036 15.9731 323.908 15.8518C323.781 15.7304 323.679 15.5853 323.608 15.4249C323.538 15.2644 323.499 15.0917 323.496 14.9166C323.492 14.7415 323.524 14.5674 323.588 14.4042C323.652 14.2411 323.748 14.0922 323.871 13.9659C325.152 12.6441 326.43 12.0008 327.781 12.0008C329.796 12.0008 331.689 13.4842 333.092 16.1776C334.277 18.5139 334.909 21.0877 334.939 23.7029C334.938 25.5813 334.545 27.198 333.801 28.3781Z"
+                            fill="url(#paint3_linear_542_174)"/>
+                    <path
+                            d="M269.902 4.00049H254.025C251.57 4.00314 249.216 4.98735 247.479 6.73719C245.743 8.48702 244.766 10.8595 244.764 13.3342V29.3348C244.766 31.8094 245.743 34.1819 247.479 35.9318C249.216 37.6816 251.57 38.6658 254.025 38.6685H269.902C272.357 38.6658 274.711 37.6816 276.448 35.9318C278.184 34.1819 279.16 31.8094 279.163 29.3348V13.3342C279.16 10.8595 278.184 8.48702 276.448 6.73719C274.711 4.98735 272.357 4.00314 269.902 4.00049ZM261.963 29.3348C260.393 29.3348 258.859 28.8656 257.553 27.9865C256.248 27.1074 255.23 25.8579 254.629 24.3961C254.029 22.9342 253.871 21.3256 254.178 19.7737C254.484 18.2218 255.24 16.7963 256.35 15.6774C257.46 14.5585 258.875 13.7966 260.415 13.4879C261.955 13.1792 263.551 13.3376 265.001 13.9432C266.452 14.5487 267.692 15.5741 268.564 16.8897C269.436 18.2054 269.902 19.7522 269.902 21.3345C269.9 23.4556 269.062 25.4892 267.574 26.9891C266.086 28.489 264.068 29.3326 261.963 29.3348ZM271.886 13.3342C271.494 13.3342 271.11 13.2169 270.784 12.9971C270.457 12.7773 270.203 12.465 270.053 12.0995C269.903 11.734 269.863 11.3319 269.94 10.9439C270.016 10.5559 270.205 10.1995 270.483 9.91983C270.761 9.64012 271.114 9.44963 271.499 9.37245C271.884 9.29528 272.283 9.33489 272.646 9.48627C273.008 9.63765 273.318 9.894 273.536 10.2229C273.754 10.5518 273.871 10.9385 273.871 11.3341C273.871 11.8646 273.662 12.3733 273.29 12.7484C272.917 13.1235 272.413 13.3342 271.886 13.3342ZM267.256 21.3345C267.256 22.3893 266.945 23.4205 266.364 24.2976C265.782 25.1747 264.956 25.8583 263.989 26.262C263.022 26.6657 261.958 26.7713 260.931 26.5655C259.904 26.3597 258.961 25.8518 258.221 25.1059C257.481 24.3599 256.977 23.4096 256.773 22.375C256.569 21.3404 256.674 20.268 257.074 19.2934C257.475 18.3188 258.153 17.4859 259.023 16.8998C259.894 16.3137 260.917 16.0009 261.963 16.0009C263.367 16.0009 264.713 16.5629 265.706 17.5631C266.698 18.5633 267.256 19.9199 267.256 21.3345Z"
+                            fill="url(#paint4_linear_542_174)"/>
+                    <path
+                            d="M217.559 8.00049H185.309C184.597 8.00049 183.913 8.28145 183.409 8.78157C182.905 9.28168 182.622 9.95998 182.622 10.6673V32.0014C182.622 32.7087 182.905 33.387 183.409 33.8871C183.913 34.3872 184.597 34.6682 185.309 34.6682H195.503C195.856 34.6693 196.206 34.6007 196.532 34.4666C196.858 34.3324 197.154 34.1352 197.403 33.8865L200.959 30.358C201.021 30.296 201.095 30.2468 201.177 30.2133C201.258 30.1797 201.346 30.1625 201.434 30.1625C201.522 30.1625 201.61 30.1797 201.691 30.2133C201.773 30.2468 201.847 30.296 201.909 30.358L205.465 33.8881C205.714 34.1363 206.01 34.333 206.336 34.4669C206.662 34.6008 207.012 34.6692 207.365 34.6682H217.559C218.271 34.6682 218.955 34.3872 219.459 33.8871C219.963 33.387 220.246 32.7087 220.246 32.0014V10.6673C220.246 9.95998 219.963 9.28168 219.459 8.78157C218.955 8.28145 218.271 8.00049 217.559 8.00049ZM193.372 25.3345C192.574 25.3345 191.795 25.0999 191.132 24.6603C190.469 24.2208 189.952 23.596 189.647 22.8651C189.342 22.1342 189.262 21.3299 189.418 20.5539C189.573 19.778 189.957 19.0652 190.521 18.5058C191.085 17.9464 191.803 17.5654 192.585 17.411C193.367 17.2567 194.178 17.3359 194.914 17.6387C195.651 17.9414 196.28 18.4541 196.723 19.112C197.166 19.7698 197.403 20.5432 197.403 21.3343C197.403 22.3952 196.978 23.4127 196.222 24.1629C195.466 24.913 194.441 25.3345 193.372 25.3345ZM209.496 25.3345C208.699 25.3345 207.92 25.0999 207.257 24.6603C206.594 24.2208 206.077 23.596 205.772 22.8651C205.467 22.1342 205.387 21.3299 205.543 20.5539C205.698 19.778 206.082 19.0652 206.646 18.5058C207.21 17.9464 207.928 17.5654 208.71 17.411C209.492 17.2567 210.302 17.3359 211.039 17.6387C211.775 17.9414 212.405 18.4541 212.848 19.112C213.291 19.7698 213.527 20.5432 213.527 21.3343C213.527 22.3952 213.103 23.4127 212.347 24.1629C211.591 24.913 210.565 25.3345 209.496 25.3345Z"
+                            fill="url(#paint5_linear_542_174)"/>
+                    <path
+                            d="M160.978 29.0662L156.021 9.66711C155.891 9.16208 155.615 8.70578 155.227 8.35408C154.839 8.00238 154.356 7.77057 153.838 7.68703L147.781 6.70033C147.113 6.59376 146.429 6.73743 145.863 7.1034C145.296 7.46938 144.886 8.03148 144.714 8.6804L144.679 8.82207C144.656 8.91208 144.652 9.00583 144.668 9.09732C144.684 9.1888 144.719 9.27601 144.77 9.35336C144.822 9.43071 144.889 9.4965 144.968 9.5465C145.047 9.59651 145.135 9.62964 145.228 9.64377C146.618 9.84618 147.989 10.1594 149.328 10.5805C149.663 10.6807 149.947 10.9035 150.122 11.2038C150.297 11.504 150.351 11.8592 150.272 12.1972C150.227 12.3734 150.145 12.5385 150.033 12.6823C149.921 12.8262 149.781 12.9459 149.621 13.0339C149.46 13.122 149.284 13.1766 149.101 13.1943C148.919 13.2121 148.735 13.1927 148.56 13.1372C143.592 11.6252 138.281 11.6193 133.309 13.1206C132.973 13.2328 132.606 13.2122 132.284 13.0629C131.962 12.9136 131.711 12.6471 131.582 12.3189C131.521 12.1504 131.495 11.9715 131.505 11.7927C131.515 11.6139 131.561 11.4389 131.641 11.2783C131.72 11.1176 131.832 10.9745 131.968 10.8574C132.105 10.7404 132.264 10.6519 132.436 10.5971C133.792 10.1686 135.18 9.84977 136.588 9.64377C136.68 9.62964 136.769 9.59651 136.847 9.5465C136.926 9.4965 136.994 9.43071 137.045 9.35336C137.097 9.27601 137.132 9.1888 137.148 9.09732C137.164 9.00583 137.16 8.91208 137.137 8.82207L137.102 8.6804C136.929 8.03093 136.519 7.46846 135.952 7.10269C135.384 6.73692 134.699 6.59407 134.031 6.70199L127.971 7.6887C127.453 7.77211 126.97 8.00368 126.582 8.35506C126.195 8.70644 125.918 9.16239 125.788 9.66711L120.831 29.0662C120.676 29.6759 120.743 30.3206 121.022 30.8856C121.301 31.4505 121.772 31.899 122.353 32.1513L133.606 37.1031C133.945 37.2524 134.31 37.3315 134.681 37.3354C135.051 37.3393 135.418 37.2681 135.76 37.126C136.101 36.984 136.41 36.7741 136.667 36.5093C136.923 36.2446 137.123 35.9305 137.253 35.5864L137.839 34.0114C137.874 33.917 137.887 33.8161 137.877 33.716C137.867 33.616 137.835 33.5195 137.782 33.4337C137.729 33.348 137.657 33.2752 137.572 33.2208C137.487 33.1664 137.39 33.1318 137.29 33.1197C135.658 32.9236 134.048 32.5776 132.481 32.0863C132.148 31.9857 131.865 31.7635 131.69 31.4645C131.515 31.1654 131.461 30.8117 131.539 30.4746C131.584 30.2979 131.665 30.1323 131.777 29.9879C131.889 29.8435 132.029 29.7234 132.19 29.635C132.35 29.5466 132.527 29.4917 132.71 29.4739C132.893 29.456 133.077 29.4755 133.252 29.5312C138.239 31.0468 143.57 31.0468 148.557 29.5312C148.732 29.4758 148.916 29.4564 149.098 29.4743C149.281 29.4922 149.457 29.5469 149.618 29.6351C149.778 29.7233 149.919 29.8431 150.03 29.9872C150.142 30.1313 150.223 30.2966 150.269 30.4729C150.347 30.8103 150.293 31.1646 150.118 31.4641C149.943 31.7637 149.66 31.9861 149.326 32.0863C147.76 32.5778 146.15 32.9238 144.519 33.1197C144.419 33.1318 144.322 33.1664 144.237 33.2208C144.152 33.2752 144.08 33.348 144.027 33.4337C143.974 33.5195 143.942 33.616 143.932 33.716C143.922 33.8161 143.935 33.917 143.97 34.0114L144.556 35.5864C144.686 35.9304 144.886 36.2443 145.143 36.5089C145.4 36.7735 145.708 36.9833 146.05 37.1253C146.391 37.2673 146.758 37.3386 147.128 37.3348C147.499 37.331 147.864 37.2522 148.203 37.1031L159.456 32.1513C160.037 31.899 160.508 31.4505 160.787 30.8856C161.066 30.3206 161.133 29.6759 160.978 29.0662ZM134.858 25.3344C134.459 25.3344 134.069 25.2171 133.738 24.9973C133.406 24.7775 133.148 24.4651 132.996 24.0997C132.843 23.7342 132.803 23.3321 132.881 22.9441C132.959 22.5561 133.151 22.1997 133.433 21.92C133.714 21.6403 134.074 21.4498 134.465 21.3726C134.856 21.2955 135.261 21.3351 135.629 21.4865C135.997 21.6378 136.312 21.8942 136.534 22.2231C136.755 22.552 136.873 22.9387 136.873 23.3343C136.873 23.8647 136.661 24.3735 136.283 24.7486C135.905 25.1236 135.392 25.3344 134.858 25.3344ZM146.951 25.3344C146.553 25.3344 146.163 25.2171 145.831 24.9973C145.5 24.7775 145.242 24.4651 145.089 24.0997C144.937 23.7342 144.897 23.3321 144.974 22.9441C145.052 22.5561 145.244 22.1997 145.526 21.92C145.808 21.6403 146.167 21.4498 146.558 21.3726C146.949 21.2955 147.354 21.3351 147.723 21.4865C148.091 21.6378 148.406 21.8942 148.627 22.2231C148.849 22.552 148.967 22.9387 148.967 23.3343C148.967 23.8647 148.754 24.3735 148.376 24.7486C147.998 25.1236 147.486 25.3344 146.951 25.3344Z"
+                            fill="url(#paint6_linear_542_174)"/>
+                    <path
+                            d="M98.5361 21.3342C98.5306 25.5707 96.9762 29.659 94.1657 32.829C91.3552 35.999 87.4825 38.0319 83.2772 38.5448C83.1835 38.5554 83.0887 38.5461 82.9989 38.5173C82.9092 38.4886 82.8265 38.4412 82.7565 38.3782C82.6864 38.3152 82.6304 38.2381 82.5923 38.1519C82.5542 38.0657 82.5349 37.9724 82.5355 37.8781V25.3343H86.5356C86.7184 25.3347 86.8993 25.2976 87.0671 25.2251C87.2349 25.1526 87.3861 25.0464 87.5111 24.9131C87.6362 24.7798 87.7325 24.6222 87.794 24.4501C87.8556 24.2779 87.8811 24.095 87.869 23.9126C87.8395 23.5697 87.6814 23.2507 87.4262 23.0198C87.1711 22.7888 86.838 22.6629 86.4939 22.6676H82.5355V18.6674C82.5355 17.9601 82.8164 17.2818 83.3165 16.7817C83.8167 16.2816 84.495 16.0007 85.2022 16.0007H87.869C88.0518 16.0011 88.2327 15.9639 88.4005 15.8914C88.5683 15.8189 88.7195 15.7127 88.8445 15.5794C88.9695 15.4461 89.0658 15.2885 89.1274 15.1164C89.189 14.9443 89.2145 14.7613 89.2024 14.5789C89.1729 14.2355 89.0142 13.916 88.7584 13.6849C88.5026 13.4538 88.1687 13.3284 87.824 13.3339H85.2022C83.7877 13.3339 82.4311 13.8958 81.4308 14.896C80.4306 15.8963 79.8687 17.2529 79.8687 18.6674V22.6676H75.8685C75.6857 22.6672 75.5048 22.7044 75.337 22.7768C75.1692 22.8493 75.0181 22.9555 74.893 23.0888C74.768 23.2221 74.6717 23.3797 74.6101 23.5519C74.5486 23.724 74.523 23.9069 74.5352 24.0893C74.5646 24.4327 74.7233 24.7522 74.9791 24.9833C75.2349 25.2144 75.5689 25.3398 75.9135 25.3343H79.8687V37.8815C79.8693 37.9756 79.8499 38.0687 79.8119 38.1548C79.7739 38.2408 79.7181 38.3179 79.6483 38.3808C79.5784 38.4438 79.4959 38.4913 79.4064 38.5201C79.3168 38.549 79.2222 38.5585 79.1287 38.5482C74.8108 38.0223 70.8476 35.8946 68.0237 32.5861C65.1998 29.2775 63.7209 25.0294 63.8798 20.6825C64.2131 11.6822 71.5034 4.36522 80.5104 4.0152C82.8423 3.92488 85.1685 4.3058 87.3497 5.13519C89.531 5.96457 91.5227 7.22539 93.2055 8.84221C94.8883 10.459 96.2277 12.3987 97.1436 14.5451C98.0595 16.6915 98.5331 19.0005 98.5361 21.3342Z"
+                            fill="url(#paint7_linear_542_174)"/>
+                    <g clip-path="url(#clip0_542_174)">
+                        <path
+                                d="M21.3725 5.00019C21.7423 3.56799 22.5778 2.29943 23.7477 1.39421C24.9175 0.48899 26.3552 -0.00148178 27.8344 3.36282e-06H28.001C28.3547 3.36282e-06 28.6938 0.140484 28.9439 0.390542C29.1939 0.6406 29.3344 0.979751 29.3344 1.33339C29.3344 1.68702 29.1939 2.02617 28.9439 2.27623C28.6938 2.52629 28.3547 2.66677 28.001 2.66677H27.8344C26.9475 2.66669 26.0857 2.96135 25.3846 3.50442C24.6834 4.04749 24.1826 4.80817 23.9609 5.66688C23.8725 6.00947 23.6516 6.3029 23.3468 6.48263C23.0421 6.66236 22.6784 6.71366 22.3358 6.62525C21.9932 6.53684 21.6998 6.31596 21.5201 6.01121C21.3404 5.70645 21.289 5.34278 21.3775 5.00019H21.3725ZM37.2181 28.2661C37.118 28.0375 36.9565 27.8413 36.7514 27.6994C33.9229 25.756 33.3346 22.4408 33.3346 20.0008C33.3346 17.0556 35.5797 14.4905 36.918 13.2222C37.0497 13.0976 37.1545 12.9474 37.2262 12.7809C37.2979 12.6144 37.3348 12.4351 37.3348 12.2538C37.3348 12.0725 37.2979 11.8932 37.2262 11.7267C37.1545 11.5602 37.0497 11.41 36.918 11.2854C34.8046 9.29035 31.3045 8.0003 28.001 8.0003C25.628 8.00242 23.3086 8.7058 21.3341 10.022C19.0309 8.47759 16.2615 7.78397 13.5022 8.06047C10.7429 8.33698 8.16618 9.56634 6.21522 11.5371C5.04891 12.7278 4.13378 14.1407 3.52421 15.692C2.91463 17.2433 2.62304 18.9013 2.66675 20.5674C2.73218 23.3798 3.35753 26.1509 4.50625 28.7188C5.65497 31.2866 7.30402 33.5998 9.35701 35.523C10.5934 36.6912 12.2312 37.3397 13.9322 37.3347H28.5461C29.4554 37.3365 30.3554 37.1514 31.1903 36.791C32.0252 36.4306 32.7771 35.9026 33.3996 35.2397C34.5526 33.9988 35.55 32.6219 36.3697 31.1395C37.5397 29.0011 37.3897 28.6677 37.2181 28.2661Z"
+                                fill="url(#paint8_linear_542_174)"/>
+                    </g>
+                    <defs>
+                        <linearGradient id="paint0_linear_542_174" x1="221.41" y1="35.4867" x2="250.436"
+                                        y2="39.0536" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2030C4"/>
+                            <stop offset="1" stop-color="#9B1DC7"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_542_174" x1="161.486" y1="35.7546" x2="189.429"
+                                        y2="39.1884" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2030C4"/>
+                            <stop offset="1" stop-color="#9B1DC7"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_542_174" x1="98.7854" y1="31.5556" x2="133.59"
+                                        y2="36.3069" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2030C4"/>
+                            <stop offset="1" stop-color="#9B1DC7"/>
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_542_174" x1="309.123" y1="-9.26751" x2="339.622"
+                                        y2="-5.49048" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2030C4"/>
+                            <stop offset="1" stop-color="#9B1DC7"/>
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_542_174" x1="249.776" y1="-9.2675" x2="279.82"
+                                        y2="-5.60411" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2030C4"/>
+                            <stop offset="1" stop-color="#9B1DC7"/>
+                        </linearGradient>
+                        <linearGradient id="paint5_linear_542_174" x1="188.104" y1="-2.20566" x2="220.48"
+                                        y2="3.40753" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2030C4"/>
+                            <stop offset="1" stop-color="#9B1DC7"/>
+                        </linearGradient>
+                        <linearGradient id="paint6_linear_542_174" x1="126.623" y1="-5.07171" x2="161.445"
+                                        y2="0.552584" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2030C4"/>
+                            <stop offset="1" stop-color="#9B1DC7"/>
+                        </linearGradient>
+                        <linearGradient id="paint7_linear_542_174" x1="68.9198" y1="-9.22065" x2="99.1884"
+                                        y2="-5.48835" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2030C4"/>
+                            <stop offset="1" stop-color="#9B1DC7"/>
+                        </linearGradient>
+                        <linearGradient id="paint8_linear_542_174" x1="7.71473" y1="-14.2886" x2="38.0524"
+                                        y2="-10.8264" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2030C4"/>
+                            <stop offset="1" stop-color="#9B1DC7"/>
+                        </linearGradient>
+                        <clipPath id="clip0_542_174">
+                            <rect width="42.6683" height="42.6683" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+
+        <div class="bottom-section">
+            <p>
+                Falls Ihre bestehende Website nicht die erhofften Ergebnisse liefert oder Ihnen nicht mehr gefällt,
+                helfen wir Ihnen gerne dabei, Ihre Website zu optimieren und zu modernisieren.
+            </p>
+            <h2>Wir kümmern uns darum!</h2>
+            <div class="button-group">
+                <a class="button-gradient-bp" href="#">JETZT ANRUFEN</a>
+                <a class="button-gradient-bb" href="#">anfrage senden</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- testimoneals section -->
+<section class="testimoneals-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-title">
+                <h2>WAS UNSERE KUNDEN BERICHTEN</h2>
+            </div>
+            <div class="shortline"></div>
+            <p class="section-subtitle">DARUM DIGITALRAUM</p>
+        </div>
+    </div>
+    <div class="section-content">
+        <!-- testimoneals carousel -->
+        <div class="gallery-carousel">
+            <div class="slides-container">
+                <div class="slider-item">
+                    <!-- slide 1 -->
+                    <div class="testimoneals">
+                        <div class="content">
+                            <div class="name-icon">
+                                <h3 class="name">David Gtei</h3>
+                                <img src="./img/google.png" width="43px" height="43px" alt="">
+                            </div>
+                            <span class="date">Mar 24, 2023</span>
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                            </div>
+                            <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum
+                                dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- slide 2-->
+                <div class="slider-item">
+                    <div class="testimoneals">
+                        <div class="content">
+                            <div class="name-icon">
+                                <h3 class="name">David Gtei</h3>
+                                <img src="./img/google.png" width="43px" height="43px" alt="">
+                            </div>
+                            <span class="date">Mar 24, 2023</span>
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                            </div>
+                            <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum
+                                dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div class="slider-item">
+                    <div class="testimoneals">
+                        <div class="content">
+                            <div class="name-icon">
+                                <h3 class="name">David Gtei</h3>
+                                <img src="./img/google.png" width="43px" height="43px" alt="">
+                            </div>
+                            <span class="date">Mar 24, 2023</span>
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                            </div>
+                            <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum
+                                dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div class="slider-item">
+                    <div class="testimoneals">
+                        <div class="content">
+                            <div class="name-icon">
+                                <h3 class="name">David Gtei</h3>
+                                <img src="./img/google.png" width="43px" height="43px" alt="">
+                            </div>
+                            <span class="date">Mar 24, 2023</span>
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                            </div>
+                            <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum
+                                dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- slide 5 -->
+                <div class="slider-item">
+                    <div class="testimoneals">
+                        <div class="content">
+                            <div class="name-icon">
+                                <h3 class="name">David Gtei</h3>
+                                <img src="./img/google.png" width="43px" height="43px" alt="">
+                            </div>
+                            <span class="date">Mar 24, 2023</span>
+                            <div class="rating">
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                                <i class="fa-solid fa-star" style="color: #FFE600; font-size: 23px;"></i>
+                            </div>
+                            <p class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum
+                                dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Work with us section -->
+<section class="work-with-us-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-title">
+                <h2>Wenn Sie mit uns <br> zusammenarbeiten,<br> erhalten Sie:</h2>
+            </div>
+            <div class="shortline"></div>
+            <p class="section-subtitle">DARUM DIGITALRAUM</p>
+        </div>
+        <div class="section-content">
+            <div class="left-side">
+                <div class="image">
+                    <img src="./img/ads.png" alt="">
+                </div>
+            </div>
+            <div class="right-side">
+                <!-- text-block -->
+                <div class="text-block">
+                    <div class="top">
+                        <h5>Erfahrung und Fachwissen</h5>
+                        <i class="fa fa-xmark" style="color: #000000;"></i>
+                    </div>
+                    <p>Unsere Agentur verfügt über langjährige Erfahrung im Bereich des digitalen Marketings und
+                        besitzt tiefgehendes Fachwissen über die verschiedenen Kanäle und Strategien, die im
+                        Online-Marketing eingesetzt werden können. Wir können unseren Kunden eine solide Expertise
+                        bieten, um ihre digitalen Marketingziele zu erreichen.</p>
+                </div>
+                <!-- text-block -->
+                <div class="text-block">
+                    <div class="top">
+                        <h5>Erfahrung und Fachwissen</h5>
+                        <i class="fa fa-xmark" style="color: #000000;"></i>
+                    </div>
+                    <p>Unsere Agentur verfügt über langjährige Erfahrung im Bereich des digitalen Marketings und
+                        besitzt tiefgehendes Fachwissen über die verschiedenen Kanäle und Strategien, die im
+                        Online-Marketing eingesetzt werden können. Wir können unseren Kunden eine solide Expertise
+                        bieten, um ihre digitalen Marketingziele zu erreichen.</p>
+                </div>
+                <!-- text-block -->
+                <div class="text-block">
+                    <div class="top">
+                        <h5>Erfahrung und Fachwissen</h5>
+                        <i class="fa fa-xmark" style="color: #000000;"></i>
+                    </div>
+                    <p>Unsere Agentur verfügt über langjährige Erfahrung im Bereich des digitalen Marketings und
+                        besitzt tiefgehendes Fachwissen über die verschiedenen Kanäle und Strategien, die im
+                        Online-Marketing eingesetzt werden können. Wir können unseren Kunden eine solide Expertise
+                        bieten, um ihre digitalen Marketingziele zu erreichen.</p>
+                </div>
+                <!-- text-block -->
+                <div class="text-block">
+                    <div class="top">
+                        <h5>Erfahrung und Fachwissen</h5>
+                        <i class="fa fa-xmark" style="color: #000000;"></i>
+                    </div>
+                    <p>Unsere Agentur verfügt über langjährige Erfahrung im Bereich des digitalen Marketings und
+                        besitzt tiefgehendes Fachwissen über die verschiedenen Kanäle und Strategien, die im
+                        Online-Marketing eingesetzt werden können. Wir können unseren Kunden eine solide Expertise
+                        bieten, um ihre digitalen Marketingziele zu erreichen.</p>
+                </div>
+                <!-- text-block -->
+                <div class="text-block">
+                    <div class="top">
+                        <h5>Erfahrung und Fachwissen</h5>
+                        <i class="fa fa-xmark" style="color: #000000;"></i>
+                    </div>
+                    <p>Unsere Agentur verfügt über langjährige Erfahrung im Bereich des digitalen Marketings und
+                        besitzt tiefgehendes Fachwissen über die verschiedenen Kanäle und Strategien, die im
+                        Online-Marketing eingesetzt werden können. Wir können unseren Kunden eine solide Expertise
+                        bieten, um ihre digitalen Marketingziele zu erreichen.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact US -->
+<section class="contact-us-section">
+    <div class="container" style="padding-right: 0px">
+        <div class="section-content">
+            <div class="left-side">
+                <div class="section-header">
+                    <div class="section-title">
+                        <h2>ANFRAGE FORMULAR</h2>
+                    </div>
+                    <div class="shortline"></div>
+                    <p class="section-subtitle">DARUM DIGITALRAUM</p>
+                </div>
+                <div class="form-content">
+                    <input placeholder="NAME" name="name" id="">
+                    <input type="text" placeholder="WEBSEITE" name="WEBSEITE" id="">
+                    <input type="text" placeholder="E-Mail" name="E-Mail" id="">
+                    <input type="text" placeholder="Telefon" name="Telefon" id="">
+                    <textarea name="Nachricht" placeholder="Nachricht" id="" cols="30" rows="2"></textarea>
+                    <button class="button-gradient-bp" href="#">jetzt kontakt aufnehmen</button>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="image">
+                    <img src="./img/contactus.png" alt="">
+                </div>
+                <div class="contacts">
+                    <!-- item -->
+                    <div class="contact-item">
+                        <div class="icon">
+                            <svg width="34" height="53" viewBox="0 0 34 53" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M3.66021 13.1547C3.66044 10.6232 4.39112 8.14558 5.76458 6.01906C7.13803 3.89253 9.09591 2.20748 11.4033 1.16608C13.7107 0.124692 16.2695 -0.228799 18.7728 0.148026C21.2761 0.524851 23.6175 1.61599 25.516 3.2905C27.4146 4.96502 28.7896 7.15178 29.4762 9.58841C30.1627 12.025 30.1316 14.608 29.3866 17.0274C28.6416 19.4468 27.2143 21.5998 25.276 23.2281C23.3376 24.8564 20.9707 25.8909 18.459 26.2073V44.3967C18.459 44.8328 18.2858 45.251 17.9774 45.5594C17.669 45.8677 17.2508 46.041 16.8147 46.041C16.3786 46.041 15.9604 45.8677 15.652 45.5594C15.3436 45.251 15.1704 44.8328 15.1704 44.3967V26.2106C11.9902 25.8099 9.06568 24.2619 6.94625 21.8572C4.82682 19.4526 3.6583 16.3601 3.66021 13.1547ZM11.8587 41.3514C11.9301 41.7814 11.8278 42.2221 11.5743 42.5766C11.3209 42.9312 10.937 43.1707 10.5071 43.2424C8.16562 43.6304 6.29768 44.2125 5.06445 44.8637C4.61142 45.0815 4.1997 45.3763 3.84766 45.7351C3.76807 45.8219 3.70459 45.9221 3.66021 46.0311V46.041L3.66678 46.0673C3.67972 46.1055 3.6974 46.142 3.7194 46.1758C3.8492 46.3661 4.01045 46.5329 4.19625 46.6691C4.73887 47.0966 5.6268 47.557 6.8699 47.9681C9.33966 48.7903 12.8552 49.3296 16.8147 49.3296C20.7742 49.3296 24.2897 48.7936 26.7595 47.9681C28.0026 47.5537 28.8905 47.0966 29.4331 46.6691C29.62 46.5331 29.7824 46.3663 29.9133 46.1758C29.9341 46.1418 29.9507 46.1053 29.9626 46.0673L29.9692 46.041V46.0278C29.9248 45.9188 29.8613 45.8186 29.7817 45.7318C29.4295 45.3742 29.0178 45.0804 28.5649 44.8637C27.3284 44.2125 25.4638 43.6304 23.1223 43.2424C22.9042 43.2128 22.6942 43.1398 22.5049 43.0276C22.3155 42.9154 22.1506 42.7663 22.0199 42.5892C21.8892 42.412 21.7955 42.2105 21.7441 41.9965C21.6928 41.7824 21.6849 41.5603 21.721 41.3431C21.7572 41.126 21.8365 40.9184 21.9543 40.7325C22.0722 40.5466 22.2262 40.3862 22.4072 40.261C22.5881 40.1357 22.7924 40.048 23.0079 40.0031C23.2234 39.9583 23.4457 39.9571 23.6616 39.9998C26.1939 40.4174 28.4367 41.0784 30.0974 41.9532C31.6135 42.7524 33.2578 44.0678 33.2578 46.041C33.2578 47.4419 32.4028 48.514 31.4688 49.254C30.5151 50.0038 29.2325 50.6122 27.7987 51.089C24.9113 52.0526 21.0274 52.6182 16.8147 52.6182C12.602 52.6182 8.71811 52.0526 5.8307 51.089C4.39686 50.6122 3.11429 50.0038 2.16059 49.254C1.22662 48.514 0.371582 47.4419 0.371582 46.041C0.371582 44.0711 2.01589 42.7524 3.53195 41.9532C5.1927 41.0784 7.43555 40.4174 9.96779 39.9998C10.3978 39.9285 10.8384 40.0308 11.193 40.2842C11.5476 40.5377 11.787 40.9215 11.8587 41.3514Z"
+                                      fill="white"/>
+                            </svg>
+                        </div>
+                        <span>Städte und Gemeinden in Deutschland</span>
+                    </div>
+                    <!-- item -->
+                    <div class="contact-item">
+                        <div class="icon">
+                            <svg width="34" height="54" viewBox="0 0 34 54" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                        d="M26.4195 0.580566H7.20975C3.22373 0.580566 0.00610352 3.7982 0.00610352 7.78422V46.2037C0.00610352 50.1897 3.22373 53.4073 7.20975 53.4073H26.4195C30.4055 53.4073 33.6231 50.1897 33.6231 46.2037V7.78422C33.6231 3.7982 30.4055 0.580566 26.4195 0.580566ZM21.6171 48.6049H12.0122V46.2037H21.6171V48.6049ZM29.421 41.4013H4.20823V7.78422H29.421V41.4013Z"
+                                        fill="white"/>
+                            </svg>
+                        </div>
+                        <span>Whatsapp: +49 176 63 444 890</span>
+                    </div>
+                    <!-- item -->
+                    <div class="contact-item">
+                        <div class="icon">
+                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                        d="M24.8147 48.1977C21.533 48.1977 18.4314 47.567 15.51 46.3055C12.5885 45.0441 10.0368 43.3232 7.85487 41.1429C5.67456 38.9626 3.95369 36.4117 2.69225 33.4902C1.43081 30.5687 0.800892 27.4672 0.802493 24.1855C0.802493 20.8638 1.43321 17.7519 2.69465 14.8496C3.95609 11.9473 5.67697 9.40682 7.85727 7.22812C10.0376 5.04621 12.5877 3.32534 15.5075 2.0655C18.4274 0.805661 21.5298 0.174941 24.8147 0.17334C28.1364 0.17334 31.2483 0.80406 34.1506 2.0655C37.0529 3.32694 39.5934 5.04781 41.7721 7.22812C43.954 9.40842 45.6748 11.9497 46.9347 14.852C48.1945 17.7542 48.8252 20.8654 48.8268 24.1855V27.6673C48.8268 30.0285 48.0168 32.0399 46.3968 33.7015C44.7768 35.3632 42.7854 36.1932 40.4226 36.1916C38.9819 36.1916 37.6412 35.8714 36.4005 35.2311C35.1599 34.5908 34.1394 33.7504 33.339 32.7098C32.2584 33.7904 30.9874 34.6412 29.5259 35.2623C28.0643 35.8834 26.4939 36.1932 24.8147 36.1916C21.493 36.1916 18.6611 35.0206 16.3192 32.6786C13.9772 30.3366 12.807 27.5056 12.8086 24.1855C12.8086 20.8638 13.9796 18.032 16.3216 15.69C18.6635 13.348 21.4946 12.1778 24.8147 12.1794C28.1364 12.1794 30.9682 13.3504 33.3102 15.6924C35.6522 18.0344 36.8224 20.8654 36.8208 24.1855V27.6673C36.8208 28.8279 37.1809 29.7379 37.9013 30.3975C38.6217 31.057 39.4621 31.3876 40.4226 31.3892C41.3831 31.3892 42.2235 31.0586 42.9439 30.3975C43.6642 29.7363 44.0244 28.8263 44.0244 27.6673V24.1855C44.0244 18.9429 42.133 14.4302 38.3503 10.6474C34.5676 6.86473 30.0557 4.97417 24.8147 4.97577C19.572 4.97577 15.0593 6.86713 11.2766 10.6498C7.49389 14.4326 5.60333 18.9445 5.60493 24.1855C5.60493 29.4282 7.49629 33.9409 11.279 37.7236C15.0617 41.5063 19.5736 43.3968 24.8147 43.3952H36.8208V48.1977H24.8147ZM24.8147 31.3892C26.8157 31.3892 28.5165 30.6888 29.9173 29.2881C31.318 27.8874 32.0183 26.1865 32.0183 24.1855C32.0183 22.1845 31.318 20.4836 29.9173 19.0829C28.5165 17.6822 26.8157 16.9819 24.8147 16.9819C22.8137 16.9819 21.1128 17.6822 19.7121 19.0829C18.3114 20.4836 17.611 22.1845 17.611 24.1855C17.611 26.1865 18.3114 27.8874 19.7121 29.2881C21.1128 30.6888 22.8137 31.3892 24.8147 31.3892Z"
+                                        fill="white"/>
+                            </svg>
+
+                        </div>
+                        <span>info@digitraum.de</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Location-section -->
+<section class="location-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-title">
+                <h2>Hier kommen wir Siegerne besuchen</h2>
+            </div>
+            <div class="shortline"></div>
+            <p class="section-subtitle">DARUM DIGITALRAUM</p>
+        </div>
+        <div class="section-content">
+            <div class="left">
+                <div class="image">
+                    <img src="./img/map.png" alt="">
+                </div>
+            </div>
+            <div class="right">
+                <div class="location-list">
+                    <!-- location-item -->
+
+                    <div class="item">
+                        <svg width="39" height="62" viewBox="0 0 39 62" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.9 15.6051C3.90028 12.6906 4.7668 9.83812 6.39559 7.38988C8.02437 4.94164 10.3462 3.00166 13.0826 1.80272C15.8189 0.603784 18.8535 0.196814 21.8221 0.630647C24.7908 1.06448 27.5675 2.32069 29.819 4.24854C32.0705 6.17638 33.7012 8.69398 34.5153 11.4992C35.3295 14.3045 35.2926 17.2782 34.4091 20.0636C33.5256 22.849 31.8329 25.3278 29.5343 27.2024C27.2356 29.0771 24.4286 30.268 21.45 30.6323V51.5735C21.45 52.0755 21.2446 52.5571 20.8789 52.9121C20.5132 53.2671 20.0172 53.4665 19.5 53.4665C18.9828 53.4665 18.4868 53.2671 18.1211 52.9121C17.7554 52.5571 17.55 52.0755 17.55 51.5735V30.6361C13.7786 30.1748 10.3104 28.3926 7.79694 25.6241C5.28349 22.8557 3.89775 19.2954 3.9 15.6051ZM13.6227 48.0675C13.7073 48.5625 13.5859 49.0699 13.2854 49.4781C12.9848 49.8863 12.5296 50.162 12.0198 50.2445C9.243 50.6913 7.0278 51.3615 5.5653 52.1111C5.02805 52.3619 4.53978 52.7013 4.1223 53.1144C4.02792 53.2143 3.95264 53.3297 3.9 53.4552V53.4665L3.9078 53.4968C3.92315 53.5408 3.94411 53.5828 3.9702 53.6218C4.12413 53.8409 4.31536 54.0329 4.5357 54.1897C5.1792 54.6819 6.2322 55.212 7.7064 55.6852C10.6353 56.6318 14.8044 57.2527 19.5 57.2527C24.1956 57.2527 28.3647 56.6356 31.2936 55.6852C32.7678 55.2082 33.8208 54.6819 34.4643 54.1897C34.6859 54.0331 34.8785 53.8411 35.0337 53.6218C35.0584 53.5826 35.078 53.5407 35.0922 53.4968L35.1 53.4665V53.4514C35.0474 53.3259 34.9721 53.2105 34.8777 53.1106C34.46 52.6989 33.9717 52.3606 33.4347 52.1111C31.9683 51.3615 29.757 50.6913 26.9802 50.2445C26.7215 50.2105 26.4725 50.1264 26.248 49.9972C26.0234 49.8681 25.8279 49.6964 25.6729 49.4925C25.5179 49.2886 25.4067 49.0566 25.3458 48.8102C25.2849 48.5637 25.2756 48.308 25.3185 48.058C25.3613 47.808 25.4554 47.569 25.5951 47.3549C25.7349 47.1409 25.9175 46.9563 26.1321 46.8121C26.3468 46.6679 26.589 46.5669 26.8446 46.5153C27.1001 46.4636 27.3637 46.4623 27.6198 46.5114C30.6228 46.9922 33.2826 47.7533 35.2521 48.7604C37.05 49.6804 39 51.1949 39 53.4665C39 55.0794 37.986 56.3137 36.8784 57.1656C35.7474 58.0289 34.2264 58.7293 32.526 59.2783C29.1018 60.3876 24.4959 61.0388 19.5 61.0388C14.5041 61.0388 9.8982 60.3876 6.474 59.2783C4.7736 58.7293 3.2526 58.0289 2.1216 57.1656C1.014 56.3137 0 55.0794 0 53.4665C0 51.1986 1.95 49.6804 3.7479 48.7604C5.7174 47.7533 8.3772 46.9922 11.3802 46.5114C11.8901 46.4293 12.4127 46.5471 12.8332 46.8389C13.2537 47.1306 13.5377 47.5726 13.6227 48.0675Z"
+                                  fill="url(#paint0_linear_355_144)"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_355_144" x1="5.68286" y1="-22.7219" x2="40.0366"
+                                                y2="-20.0039" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#2030C4"/>
+                                    <stop offset="1" stop-color="#9B1DC7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>BERLIN</span>
+                    </div>
+                    <div class="item">
+                        <svg width="39" height="62" viewBox="0 0 39 62" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.9 15.6051C3.90028 12.6906 4.7668 9.83812 6.39559 7.38988C8.02437 4.94164 10.3462 3.00166 13.0826 1.80272C15.8189 0.603784 18.8535 0.196814 21.8221 0.630647C24.7908 1.06448 27.5675 2.32069 29.819 4.24854C32.0705 6.17638 33.7012 8.69398 34.5153 11.4992C35.3295 14.3045 35.2926 17.2782 34.4091 20.0636C33.5256 22.849 31.8329 25.3278 29.5343 27.2024C27.2356 29.0771 24.4286 30.268 21.45 30.6323V51.5735C21.45 52.0755 21.2446 52.5571 20.8789 52.9121C20.5132 53.2671 20.0172 53.4665 19.5 53.4665C18.9828 53.4665 18.4868 53.2671 18.1211 52.9121C17.7554 52.5571 17.55 52.0755 17.55 51.5735V30.6361C13.7786 30.1748 10.3104 28.3926 7.79694 25.6241C5.28349 22.8557 3.89775 19.2954 3.9 15.6051ZM13.6227 48.0675C13.7073 48.5625 13.5859 49.0699 13.2854 49.4781C12.9848 49.8863 12.5296 50.162 12.0198 50.2445C9.243 50.6913 7.0278 51.3615 5.5653 52.1111C5.02805 52.3619 4.53978 52.7013 4.1223 53.1144C4.02792 53.2143 3.95264 53.3297 3.9 53.4552V53.4665L3.9078 53.4968C3.92315 53.5408 3.94411 53.5828 3.9702 53.6218C4.12413 53.8409 4.31536 54.0329 4.5357 54.1897C5.1792 54.6819 6.2322 55.212 7.7064 55.6852C10.6353 56.6318 14.8044 57.2527 19.5 57.2527C24.1956 57.2527 28.3647 56.6356 31.2936 55.6852C32.7678 55.2082 33.8208 54.6819 34.4643 54.1897C34.6859 54.0331 34.8785 53.8411 35.0337 53.6218C35.0584 53.5826 35.078 53.5407 35.0922 53.4968L35.1 53.4665V53.4514C35.0474 53.3259 34.9721 53.2105 34.8777 53.1106C34.46 52.6989 33.9717 52.3606 33.4347 52.1111C31.9683 51.3615 29.757 50.6913 26.9802 50.2445C26.7215 50.2105 26.4725 50.1264 26.248 49.9972C26.0234 49.8681 25.8279 49.6964 25.6729 49.4925C25.5179 49.2886 25.4067 49.0566 25.3458 48.8102C25.2849 48.5637 25.2756 48.308 25.3185 48.058C25.3613 47.808 25.4554 47.569 25.5951 47.3549C25.7349 47.1409 25.9175 46.9563 26.1321 46.8121C26.3468 46.6679 26.589 46.5669 26.8446 46.5153C27.1001 46.4636 27.3637 46.4623 27.6198 46.5114C30.6228 46.9922 33.2826 47.7533 35.2521 48.7604C37.05 49.6804 39 51.1949 39 53.4665C39 55.0794 37.986 56.3137 36.8784 57.1656C35.7474 58.0289 34.2264 58.7293 32.526 59.2783C29.1018 60.3876 24.4959 61.0388 19.5 61.0388C14.5041 61.0388 9.8982 60.3876 6.474 59.2783C4.7736 58.7293 3.2526 58.0289 2.1216 57.1656C1.014 56.3137 0 55.0794 0 53.4665C0 51.1986 1.95 49.6804 3.7479 48.7604C5.7174 47.7533 8.3772 46.9922 11.3802 46.5114C11.8901 46.4293 12.4127 46.5471 12.8332 46.8389C13.2537 47.1306 13.5377 47.5726 13.6227 48.0675Z"
+                                  fill="url(#paint0_linear_355_144)"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_355_144" x1="5.68286" y1="-22.7219" x2="40.0366"
+                                                y2="-20.0039" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#2030C4"/>
+                                    <stop offset="1" stop-color="#9B1DC7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>HAMBURG</span>
+                    </div>
+
+                    <!-- location-item -->
+
+                    <div class="item">
+                        <svg width="39" height="62" viewBox="0 0 39 62" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.9 15.6051C3.90028 12.6906 4.7668 9.83812 6.39559 7.38988C8.02437 4.94164 10.3462 3.00166 13.0826 1.80272C15.8189 0.603784 18.8535 0.196814 21.8221 0.630647C24.7908 1.06448 27.5675 2.32069 29.819 4.24854C32.0705 6.17638 33.7012 8.69398 34.5153 11.4992C35.3295 14.3045 35.2926 17.2782 34.4091 20.0636C33.5256 22.849 31.8329 25.3278 29.5343 27.2024C27.2356 29.0771 24.4286 30.268 21.45 30.6323V51.5735C21.45 52.0755 21.2446 52.5571 20.8789 52.9121C20.5132 53.2671 20.0172 53.4665 19.5 53.4665C18.9828 53.4665 18.4868 53.2671 18.1211 52.9121C17.7554 52.5571 17.55 52.0755 17.55 51.5735V30.6361C13.7786 30.1748 10.3104 28.3926 7.79694 25.6241C5.28349 22.8557 3.89775 19.2954 3.9 15.6051ZM13.6227 48.0675C13.7073 48.5625 13.5859 49.0699 13.2854 49.4781C12.9848 49.8863 12.5296 50.162 12.0198 50.2445C9.243 50.6913 7.0278 51.3615 5.5653 52.1111C5.02805 52.3619 4.53978 52.7013 4.1223 53.1144C4.02792 53.2143 3.95264 53.3297 3.9 53.4552V53.4665L3.9078 53.4968C3.92315 53.5408 3.94411 53.5828 3.9702 53.6218C4.12413 53.8409 4.31536 54.0329 4.5357 54.1897C5.1792 54.6819 6.2322 55.212 7.7064 55.6852C10.6353 56.6318 14.8044 57.2527 19.5 57.2527C24.1956 57.2527 28.3647 56.6356 31.2936 55.6852C32.7678 55.2082 33.8208 54.6819 34.4643 54.1897C34.6859 54.0331 34.8785 53.8411 35.0337 53.6218C35.0584 53.5826 35.078 53.5407 35.0922 53.4968L35.1 53.4665V53.4514C35.0474 53.3259 34.9721 53.2105 34.8777 53.1106C34.46 52.6989 33.9717 52.3606 33.4347 52.1111C31.9683 51.3615 29.757 50.6913 26.9802 50.2445C26.7215 50.2105 26.4725 50.1264 26.248 49.9972C26.0234 49.8681 25.8279 49.6964 25.6729 49.4925C25.5179 49.2886 25.4067 49.0566 25.3458 48.8102C25.2849 48.5637 25.2756 48.308 25.3185 48.058C25.3613 47.808 25.4554 47.569 25.5951 47.3549C25.7349 47.1409 25.9175 46.9563 26.1321 46.8121C26.3468 46.6679 26.589 46.5669 26.8446 46.5153C27.1001 46.4636 27.3637 46.4623 27.6198 46.5114C30.6228 46.9922 33.2826 47.7533 35.2521 48.7604C37.05 49.6804 39 51.1949 39 53.4665C39 55.0794 37.986 56.3137 36.8784 57.1656C35.7474 58.0289 34.2264 58.7293 32.526 59.2783C29.1018 60.3876 24.4959 61.0388 19.5 61.0388C14.5041 61.0388 9.8982 60.3876 6.474 59.2783C4.7736 58.7293 3.2526 58.0289 2.1216 57.1656C1.014 56.3137 0 55.0794 0 53.4665C0 51.1986 1.95 49.6804 3.7479 48.7604C5.7174 47.7533 8.3772 46.9922 11.3802 46.5114C11.8901 46.4293 12.4127 46.5471 12.8332 46.8389C13.2537 47.1306 13.5377 47.5726 13.6227 48.0675Z"
+                                  fill="url(#paint0_linear_355_144)"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_355_144" x1="5.68286" y1="-22.7219" x2="40.0366"
+                                                y2="-20.0039" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#2030C4"/>
+                                    <stop offset="1" stop-color="#9B1DC7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>köln</span>
+                    </div>
+                    <div class="item">
+                        <svg width="39" height="62" viewBox="0 0 39 62" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.9 15.6051C3.90028 12.6906 4.7668 9.83812 6.39559 7.38988C8.02437 4.94164 10.3462 3.00166 13.0826 1.80272C15.8189 0.603784 18.8535 0.196814 21.8221 0.630647C24.7908 1.06448 27.5675 2.32069 29.819 4.24854C32.0705 6.17638 33.7012 8.69398 34.5153 11.4992C35.3295 14.3045 35.2926 17.2782 34.4091 20.0636C33.5256 22.849 31.8329 25.3278 29.5343 27.2024C27.2356 29.0771 24.4286 30.268 21.45 30.6323V51.5735C21.45 52.0755 21.2446 52.5571 20.8789 52.9121C20.5132 53.2671 20.0172 53.4665 19.5 53.4665C18.9828 53.4665 18.4868 53.2671 18.1211 52.9121C17.7554 52.5571 17.55 52.0755 17.55 51.5735V30.6361C13.7786 30.1748 10.3104 28.3926 7.79694 25.6241C5.28349 22.8557 3.89775 19.2954 3.9 15.6051ZM13.6227 48.0675C13.7073 48.5625 13.5859 49.0699 13.2854 49.4781C12.9848 49.8863 12.5296 50.162 12.0198 50.2445C9.243 50.6913 7.0278 51.3615 5.5653 52.1111C5.02805 52.3619 4.53978 52.7013 4.1223 53.1144C4.02792 53.2143 3.95264 53.3297 3.9 53.4552V53.4665L3.9078 53.4968C3.92315 53.5408 3.94411 53.5828 3.9702 53.6218C4.12413 53.8409 4.31536 54.0329 4.5357 54.1897C5.1792 54.6819 6.2322 55.212 7.7064 55.6852C10.6353 56.6318 14.8044 57.2527 19.5 57.2527C24.1956 57.2527 28.3647 56.6356 31.2936 55.6852C32.7678 55.2082 33.8208 54.6819 34.4643 54.1897C34.6859 54.0331 34.8785 53.8411 35.0337 53.6218C35.0584 53.5826 35.078 53.5407 35.0922 53.4968L35.1 53.4665V53.4514C35.0474 53.3259 34.9721 53.2105 34.8777 53.1106C34.46 52.6989 33.9717 52.3606 33.4347 52.1111C31.9683 51.3615 29.757 50.6913 26.9802 50.2445C26.7215 50.2105 26.4725 50.1264 26.248 49.9972C26.0234 49.8681 25.8279 49.6964 25.6729 49.4925C25.5179 49.2886 25.4067 49.0566 25.3458 48.8102C25.2849 48.5637 25.2756 48.308 25.3185 48.058C25.3613 47.808 25.4554 47.569 25.5951 47.3549C25.7349 47.1409 25.9175 46.9563 26.1321 46.8121C26.3468 46.6679 26.589 46.5669 26.8446 46.5153C27.1001 46.4636 27.3637 46.4623 27.6198 46.5114C30.6228 46.9922 33.2826 47.7533 35.2521 48.7604C37.05 49.6804 39 51.1949 39 53.4665C39 55.0794 37.986 56.3137 36.8784 57.1656C35.7474 58.0289 34.2264 58.7293 32.526 59.2783C29.1018 60.3876 24.4959 61.0388 19.5 61.0388C14.5041 61.0388 9.8982 60.3876 6.474 59.2783C4.7736 58.7293 3.2526 58.0289 2.1216 57.1656C1.014 56.3137 0 55.0794 0 53.4665C0 51.1986 1.95 49.6804 3.7479 48.7604C5.7174 47.7533 8.3772 46.9922 11.3802 46.5114C11.8901 46.4293 12.4127 46.5471 12.8332 46.8389C13.2537 47.1306 13.5377 47.5726 13.6227 48.0675Z"
+                                  fill="url(#paint0_linear_355_144)"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_355_144" x1="5.68286" y1="-22.7219" x2="40.0366"
+                                                y2="-20.0039" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#2030C4"/>
+                                    <stop offset="1" stop-color="#9B1DC7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>wien</span>
+                    </div>
+
+                    <!-- location-item -->
+
+                    <div class="item">
+                        <svg width="39" height="62" viewBox="0 0 39 62" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.9 15.6051C3.90028 12.6906 4.7668 9.83812 6.39559 7.38988C8.02437 4.94164 10.3462 3.00166 13.0826 1.80272C15.8189 0.603784 18.8535 0.196814 21.8221 0.630647C24.7908 1.06448 27.5675 2.32069 29.819 4.24854C32.0705 6.17638 33.7012 8.69398 34.5153 11.4992C35.3295 14.3045 35.2926 17.2782 34.4091 20.0636C33.5256 22.849 31.8329 25.3278 29.5343 27.2024C27.2356 29.0771 24.4286 30.268 21.45 30.6323V51.5735C21.45 52.0755 21.2446 52.5571 20.8789 52.9121C20.5132 53.2671 20.0172 53.4665 19.5 53.4665C18.9828 53.4665 18.4868 53.2671 18.1211 52.9121C17.7554 52.5571 17.55 52.0755 17.55 51.5735V30.6361C13.7786 30.1748 10.3104 28.3926 7.79694 25.6241C5.28349 22.8557 3.89775 19.2954 3.9 15.6051ZM13.6227 48.0675C13.7073 48.5625 13.5859 49.0699 13.2854 49.4781C12.9848 49.8863 12.5296 50.162 12.0198 50.2445C9.243 50.6913 7.0278 51.3615 5.5653 52.1111C5.02805 52.3619 4.53978 52.7013 4.1223 53.1144C4.02792 53.2143 3.95264 53.3297 3.9 53.4552V53.4665L3.9078 53.4968C3.92315 53.5408 3.94411 53.5828 3.9702 53.6218C4.12413 53.8409 4.31536 54.0329 4.5357 54.1897C5.1792 54.6819 6.2322 55.212 7.7064 55.6852C10.6353 56.6318 14.8044 57.2527 19.5 57.2527C24.1956 57.2527 28.3647 56.6356 31.2936 55.6852C32.7678 55.2082 33.8208 54.6819 34.4643 54.1897C34.6859 54.0331 34.8785 53.8411 35.0337 53.6218C35.0584 53.5826 35.078 53.5407 35.0922 53.4968L35.1 53.4665V53.4514C35.0474 53.3259 34.9721 53.2105 34.8777 53.1106C34.46 52.6989 33.9717 52.3606 33.4347 52.1111C31.9683 51.3615 29.757 50.6913 26.9802 50.2445C26.7215 50.2105 26.4725 50.1264 26.248 49.9972C26.0234 49.8681 25.8279 49.6964 25.6729 49.4925C25.5179 49.2886 25.4067 49.0566 25.3458 48.8102C25.2849 48.5637 25.2756 48.308 25.3185 48.058C25.3613 47.808 25.4554 47.569 25.5951 47.3549C25.7349 47.1409 25.9175 46.9563 26.1321 46.8121C26.3468 46.6679 26.589 46.5669 26.8446 46.5153C27.1001 46.4636 27.3637 46.4623 27.6198 46.5114C30.6228 46.9922 33.2826 47.7533 35.2521 48.7604C37.05 49.6804 39 51.1949 39 53.4665C39 55.0794 37.986 56.3137 36.8784 57.1656C35.7474 58.0289 34.2264 58.7293 32.526 59.2783C29.1018 60.3876 24.4959 61.0388 19.5 61.0388C14.5041 61.0388 9.8982 60.3876 6.474 59.2783C4.7736 58.7293 3.2526 58.0289 2.1216 57.1656C1.014 56.3137 0 55.0794 0 53.4665C0 51.1986 1.95 49.6804 3.7479 48.7604C5.7174 47.7533 8.3772 46.9922 11.3802 46.5114C11.8901 46.4293 12.4127 46.5471 12.8332 46.8389C13.2537 47.1306 13.5377 47.5726 13.6227 48.0675Z"
+                                  fill="url(#paint0_linear_355_144)"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_355_144" x1="5.68286" y1="-22.7219" x2="40.0366"
+                                                y2="-20.0039" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#2030C4"/>
+                                    <stop offset="1" stop-color="#9B1DC7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>düsseldorf</span>
+                    </div>
+                    <div class="item">
+                        <svg width="39" height="62" viewBox="0 0 39 62" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.9 15.6051C3.90028 12.6906 4.7668 9.83812 6.39559 7.38988C8.02437 4.94164 10.3462 3.00166 13.0826 1.80272C15.8189 0.603784 18.8535 0.196814 21.8221 0.630647C24.7908 1.06448 27.5675 2.32069 29.819 4.24854C32.0705 6.17638 33.7012 8.69398 34.5153 11.4992C35.3295 14.3045 35.2926 17.2782 34.4091 20.0636C33.5256 22.849 31.8329 25.3278 29.5343 27.2024C27.2356 29.0771 24.4286 30.268 21.45 30.6323V51.5735C21.45 52.0755 21.2446 52.5571 20.8789 52.9121C20.5132 53.2671 20.0172 53.4665 19.5 53.4665C18.9828 53.4665 18.4868 53.2671 18.1211 52.9121C17.7554 52.5571 17.55 52.0755 17.55 51.5735V30.6361C13.7786 30.1748 10.3104 28.3926 7.79694 25.6241C5.28349 22.8557 3.89775 19.2954 3.9 15.6051ZM13.6227 48.0675C13.7073 48.5625 13.5859 49.0699 13.2854 49.4781C12.9848 49.8863 12.5296 50.162 12.0198 50.2445C9.243 50.6913 7.0278 51.3615 5.5653 52.1111C5.02805 52.3619 4.53978 52.7013 4.1223 53.1144C4.02792 53.2143 3.95264 53.3297 3.9 53.4552V53.4665L3.9078 53.4968C3.92315 53.5408 3.94411 53.5828 3.9702 53.6218C4.12413 53.8409 4.31536 54.0329 4.5357 54.1897C5.1792 54.6819 6.2322 55.212 7.7064 55.6852C10.6353 56.6318 14.8044 57.2527 19.5 57.2527C24.1956 57.2527 28.3647 56.6356 31.2936 55.6852C32.7678 55.2082 33.8208 54.6819 34.4643 54.1897C34.6859 54.0331 34.8785 53.8411 35.0337 53.6218C35.0584 53.5826 35.078 53.5407 35.0922 53.4968L35.1 53.4665V53.4514C35.0474 53.3259 34.9721 53.2105 34.8777 53.1106C34.46 52.6989 33.9717 52.3606 33.4347 52.1111C31.9683 51.3615 29.757 50.6913 26.9802 50.2445C26.7215 50.2105 26.4725 50.1264 26.248 49.9972C26.0234 49.8681 25.8279 49.6964 25.6729 49.4925C25.5179 49.2886 25.4067 49.0566 25.3458 48.8102C25.2849 48.5637 25.2756 48.308 25.3185 48.058C25.3613 47.808 25.4554 47.569 25.5951 47.3549C25.7349 47.1409 25.9175 46.9563 26.1321 46.8121C26.3468 46.6679 26.589 46.5669 26.8446 46.5153C27.1001 46.4636 27.3637 46.4623 27.6198 46.5114C30.6228 46.9922 33.2826 47.7533 35.2521 48.7604C37.05 49.6804 39 51.1949 39 53.4665C39 55.0794 37.986 56.3137 36.8784 57.1656C35.7474 58.0289 34.2264 58.7293 32.526 59.2783C29.1018 60.3876 24.4959 61.0388 19.5 61.0388C14.5041 61.0388 9.8982 60.3876 6.474 59.2783C4.7736 58.7293 3.2526 58.0289 2.1216 57.1656C1.014 56.3137 0 55.0794 0 53.4665C0 51.1986 1.95 49.6804 3.7479 48.7604C5.7174 47.7533 8.3772 46.9922 11.3802 46.5114C11.8901 46.4293 12.4127 46.5471 12.8332 46.8389C13.2537 47.1306 13.5377 47.5726 13.6227 48.0675Z"
+                                  fill="url(#paint0_linear_355_144)"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_355_144" x1="5.68286" y1="-22.7219" x2="40.0366"
+                                                y2="-20.0039" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#2030C4"/>
+                                    <stop offset="1" stop-color="#9B1DC7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span>münchen</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="top">
+            <div class="left-side">
+                <h2>ÜBER UNS</h2>
+                <div class="footer-logo">
+                    <img src="./img/logo.png" width="123px" height="23px" alt="">
+                </div>
+                <div class="contact-footer">
+                    <div class="left">
+                        <p>Sie möchten Kontakt zu uns aufnehmen?</p>
+                        <p>Mo. - So. : 10:00 - 19:00 Uhr</p>
+                        <div class="mobile-tel">
+                            <i class="fa-solid fa-mobile fa-xl"></i>
+                            +49 3090 260
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p>Nicht erreicht? Kein Problem!</p>
+                        <p>Schreiben Sie uns eine E-Mail. Wir bearbeiten Ihre Anfrage so schnell wie möglich.</p>
+                        <p><i class="fa-regular fa-at" style="color: #ffffff;"></i>info@digitraum.de</p>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-side">
+                <h2>INFOS</h2>
+                <div class="nav-list">
+                    <a href="">DIENSTLEISTUNGEN</a>
+                    <a href="">NISCHEN</a>
+                    <a href="">DATENSCHUTZERKLÄRUNG</a>
+                    <a href="">AGB</a>
+                    <a href="">IMPRESSUM</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <a href="">leistungen</a>
+                <a href="">REFERENZEN</a>
+                <a href="">jetzt kontakt aufnehmen</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="allright">
+                <h2>© 2023 Alle Rechte vorbehalten.</h2>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="./js/main.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript">
+    $('.slides-container').slick({
+        arrows: false,
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        autoplay: true,
+        centerMode: true,
+        variableWidth: true,
+
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 2,
+
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 877,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+
+</script>
+<script>
+    const slider1 = () => {
+        const slides = document.querySelector('.slides');
+        const circleButtons = document.querySelector('.circle-buttons');
+
+        let index = 0;
+
+        // create circle buttons for each slide
+        for (let i = 0; i < slides.children.length; i++) {
+            const button = document.createElement('button');
+            button.addEventListener('click', () => {
+                index = i;
+                updateSlide();
+                updateActiveButton();
+                clearInterval(autoSlideInterval);
+                autoSlideInterval = setInterval(autoSlide, 5000);
+            });
+            circleButtons.appendChild(button);
+        }
+
+        const updateSlide = () => {
+            slides.style.transform = `translateX(-${index * 100 / slides.children.length}%)`;
+        };
+
+        const updateActiveButton = () => {
+            const buttons = circleButtons.children;
+            for (let i = 0; i < buttons.length; i++) {
+                if (i === index) {
+                    buttons[i].classList.add('active');
+                } else {
+                    buttons[i].classList.remove('active');
+                }
+            }
+        };
+
+        const autoSlide = () => {
+            index = (index + 1) % slides.children.length;
+            updateSlide();
+            updateActiveButton();
+        };
+
+        let autoSlideInterval = setInterval(autoSlide, 5000);
+    }
+    slider1();
+
+    const popup = () => {
+        const popup = document.querySelector('.popup');
+        popup.classList.add('show');
+        if (popup.classList.contains('show')) {
+            popup.querySelector('.close').addEventListener('click', () => {
+               popup.classList.remove('show');
+            });
+        }
+    };
+    popup();
+</script>
+
+
+</html>

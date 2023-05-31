@@ -1,0 +1,107 @@
+.leistungen-contact {
+    background: #F2F2F2;
+    padding-top: 55px;
+    padding-bottom: 15px;
+    .section-header {
+        margin-bottom: 35px;
+        .section-title {
+          
+            h2 {
+                position: relative;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 43px;
+                text-align: center;
+                text-transform: uppercase;
+                z-index: 2;
+
+                &::before {
+                    content: "Hinterlassen Sie einen Kontakt";
+                    position: absolute;
+                    top: -20px;
+                    left: -12%;
+                    z-index: 1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 44px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    font-family: arial;
+                    white-space: nowrap;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 19px;
+                    left: 31px;
+                    z-index: -1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 64px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    font-family: arial;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+                }
+            }
+        }
+
+
+
+        .stars-group {
+            width: 170px;
+            height: 1px;
+            border-top: 1px solid #000;
+            padding-top: 12px;
+            margin-top: -3px;
+        }
+    }
+
+    .section-content {       
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        @media screen and (max-width: 767px){
+            justify-content: flex-start;
+        }
+        .sinput {
+            background-color: transparent;
+            border-color: rgba(73, 0, 229, 0.2);
+            border-radius: 100px;
+            max-width: 500px;
+            margin-right: 30px;
+
+            &::placeholder {
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 19px;
+                text-transform: uppercase;
+
+                color: #BABABA;
+            }
+        }
+
+        .btn {
+            border: 3px solid rgba(155, 29, 199, 0.54);
+            border-radius: 100px;
+            margin-bottom: 33px;
+            display: flex;
+    align-items: center;
+
+            span {
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 19px;
+                text-transform: uppercase;
+
+                color: #000000;
+            }
+        }
+    }
+}

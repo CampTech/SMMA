@@ -1,0 +1,119 @@
+.download-main{
+    .main-section-content-left{
+        @media screen and (max-width: 768px){
+            text-align: center;
+            .button-group-main{
+                align-items: center;
+            }
+        }
+    }
+}
+
+.download-content-section {
+    background-color: #fff;
+    
+    padding-bottom: 166px;
+    .section-header {
+        margin-top: 20px;
+        margin-bottom: 80px;
+        .section-title {
+            h2 {
+                position: relative;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 43px;
+                text-align: center;
+                text-transform: uppercase;
+
+                &::before {
+                    content: "Press the button to";
+                    position: absolute;
+                    top: -45px;
+                    left: -30%;
+                    z-index: -1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 64px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    font-family: arial;
+                    white-space: nowrap;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+                }
+
+                &::after {
+                    content: "download the PDF file";
+                    position: absolute;
+                    top: 19px;
+                    left: -200px;
+                    z-index: -1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 64px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    font-family: arial;
+                    white-space: nowrap;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+                }
+            }
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+
+
+            text-align: center;
+            text-transform: uppercase;
+
+            color: #000000;
+
+            margin-top: 10px;
+        }
+
+        .stars-group {
+            width: 170px;
+            height: 1px;
+            border-top: 1px solid #000;
+            padding-top: 12px;
+            margin-top: -3px;
+        }
+    }
+
+    .section-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            margin: 10px;
+
+            @media screen and (max-width: 768px) {
+                margin-bottom: 40px;
+            }
+
+            span {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                /* identical to box height */
+
+                text-align: center;
+                text-transform: uppercase;
+
+                color: #000000;
+            }
+        }
+    }
+}

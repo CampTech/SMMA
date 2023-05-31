@@ -1,0 +1,118 @@
+.work-with-us-section {
+    background-image: url(../img/test.svg);
+    background-size: cover;
+
+    padding-top: 35px;
+    padding-bottom: 90px;
+
+    .section-header {
+        align-items: flex-end;
+
+        .section-title {
+            h2 {
+                position: relative;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 43px;
+                text-align: right;
+                text-transform: uppercase;
+
+                &::before {
+                    content: "Wenn Sie mit uns";
+                    position: absolute;
+                    top: -56px;
+                    left: -242px;
+                    z-index: -1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 64px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    white-space: nowrap;
+                    font-family: 'GothamPro', sans-serif;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.18);
+                }
+
+                &::after {
+                    content: "zusammenarbeiten, erhalten Sie:";
+                    position: absolute;
+                    top: 2px;
+                    left: -927px;
+                    z-index: -1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 64px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    white-space: nowrap;
+                    font-family: 'GothamPro', sans-serif;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.18);
+                }
+            }
+        }
+
+        .section-subtitle {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #000000;
+        }
+    }
+
+    .section-content {
+        display: flex;
+        @media (max-width: 767px){
+            flex-direction: column-reverse;
+        }
+        .left-side{
+            flex: 1;
+            .image{
+                img{
+                    min-width: 300px;
+                    width: 100%;
+                }
+            }
+        }
+       
+        .right-side {
+            flex: 1;
+            .text-block {
+                border-bottom: 1px solid #000000;
+                &:not(:last-child){
+                    margin-bottom: 25px;
+                }
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    h5 {
+                        margin-top: 0;
+                        margin-bottom: 10px;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 21px;
+                        color: #000000;
+                    }
+
+                    i {
+                        font-size: 30px;
+                    }
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}

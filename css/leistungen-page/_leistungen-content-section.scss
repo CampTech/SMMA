@@ -1,0 +1,134 @@
+.leistungen-content-section {
+    .section-header {
+        .section-title {
+            h2 {
+                position: relative;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 43px;
+                text-align: center;
+                text-transform: uppercase;
+
+                &::before {
+                    content: "unsere Leistungen";
+                    position: absolute;
+                    top: -45px;
+                    left: -250px;
+                    z-index: -1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 64px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    font-family: arial;
+                    white-space: nowrap;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 19px;
+                    left: 31px;
+                    z-index: -1;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 64px;
+                    line-height: 61px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: transparent;
+                    font-family: arial;
+                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
+                }
+            }
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+
+
+            text-align: center;
+            text-transform: uppercase;
+
+            color: #000000;
+
+            margin-top: 10px;
+        }
+
+        .stars-group {
+            width: 170px;
+            height: 1px;
+            border-top: 1px solid #000;
+            padding-top: 12px;
+            margin-top: -3px;
+        }
+    }
+
+    .section-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media screen and (max-width: 767px){
+            justify-content: center;
+        }
+
+        .item {
+            min-width: 320px;
+            flex-basis: 49%;
+            
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 44px 73px;
+
+            border: 3px solid rgba(155, 29, 199, 0.54);
+            border-radius: 25px;
+            margin-bottom: 40px;
+
+            @media screen and (max-width: 767px){
+                flex-basis: 100%;
+                padding: 40px 20px;
+            }
+            h2{
+               
+                font-weight: 800;
+                font-size: 26.227px;
+                line-height: 29px;
+                text-align: center;
+                text-transform: uppercase;
+            
+                color: #000000;
+            
+            }
+            .line{
+                width: 167px;
+                    height: 1px;
+                    background-color: #000;
+                    left: 30%;
+            }
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 125%;
+                /* or 25px */
+                
+                text-align: center;
+                
+                /* txt */
+                
+                color: #000000;
+            }
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
