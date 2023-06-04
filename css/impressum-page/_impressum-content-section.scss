@@ -6,16 +6,16 @@
             h2 {
                 position: relative;
                 font-weight: 900;
-                font-size: 36px;
+                font-size: 32px;
                 line-height: 43px;
                 text-align: center;
                 text-transform: uppercase;
 
                 &::before {
-                    content: "imprfessum";
+                    content: "impressum";
                     position: absolute;
                     top: -45px;
-                    left: -50%;
+                    left: -30%;
                     z-index: -1;
                     font-style: normal;
                     font-weight: 800;
@@ -46,20 +46,29 @@
                     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
                 }
             }
+
+            h5 {
+                position: relative;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 43px;
+                text-align: center;
+                text-transform: uppercase;
+            }
         }
 
         h3 {
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 24px;
-
-
             text-align: center;
             text-transform: uppercase;
 
             color: #000000;
 
             margin-top: 10px;
+
+            position: relative;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 43px;
         }
 
         .stars-group {

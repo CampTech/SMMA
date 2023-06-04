@@ -1,0 +1,101 @@
+.popup {
+  .popup-wrapper {
+    position: relative;
+    padding: 40px 55px;
+    
+    @media (max-width: 768px) {
+      width: 60%;
+    }
+
+    .popup-header {
+      position: absolute;
+      right: 25px;
+      top: 15px;
+      font-size: 25px;
+    }
+
+    .popup-title {
+      font-family: 'TTL', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 23px;
+      text-transform: uppercase;
+      color: #000000;
+      max-width: 60%;
+
+      @media (max-width: 425px) {
+        max-width: 75%;
+        font-size: 10px;
+        line-height: 18px;
+      }
+    }
+
+    .popup-content {
+      p {
+        font-family: 'TTL', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #000000;
+        margin: 35px 0 55px;
+
+        @media (max-width: 425px) {
+          font-size: 9px;
+          line-height: 17px;
+          margin: 25px 0 35px;
+        }
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+        input {
+          background: #FFFFFF;
+          border-radius: 17px;
+          padding: 20px 0;
+          margin-bottom: 28px;
+          border: 1px solid #9B1DC78A;
+
+          @media (max-width: 425px) {
+            padding: 8px 0;
+            margin-bottom: 18px;
+          }
+
+          &:last-child {
+            margin-bottom: 38px;
+
+            @media (max-width: 425px) {
+              margin-bottom: 28px;
+            }
+          }
+        }
+
+        button {
+          background: linear-gradient(97.01deg, #2030C4 8.79%, #9B1DC7 87.73%);
+          padding: 22px 38px;
+          border-radius: 100px;
+          width: 290px;
+          border: unset;
+          color: #fff;
+          font-family: 'TTL', sans-serif;
+          font-weight: 800;
+          font-size: 15px;
+          line-height: 22px;
+          text-transform: uppercase;
+
+          @media (max-width: 425px) {
+            padding: 8px 38px;
+            width: 100%;
+            font-size: 9px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}

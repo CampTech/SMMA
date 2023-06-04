@@ -75,92 +75,99 @@
         padding-top: 40px;
 
         .contact-us-c-section {
-            padding-bottom: 100px;
-        
-            .section-header  {
-                align-items: flex-start;
-                @media screen and (max-width: 768px){
-                    align-items: center;
-                }
-                .section-title {
-                    h2 {
-                        position: relative;
-                        font-weight: 900;
-                        font-size: 36px;
-                        line-height: 43px;
-                        text-align: left;
+            padding-bottom: 0;
+
+            .container {
+                padding: 0;
+
+                .section-header {
+                    align-items: flex-start;
+                    @media screen and (max-width: 768px) {
+                        align-items: center;
+                    }
+
+                    .section-title {
+                        h2 {
+                            position: relative;
+                            font-weight: 900;
+                            font-size: 36px;
+                            line-height: 43px;
+                            text-align: left;
+                            text-transform: uppercase;
+                            @media screen and (max-width: 768px) {
+                                text-align: center;
+                            }
+
+                            &::before {
+                                content: "";
+
+                            }
+
+                            &::after {
+                                content: "";
+
+                            }
+                        }
+                    }
+
+                    h3 {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+
+
+                        text-align: center;
                         text-transform: uppercase;
-                        @media screen and (max-width: 768px){
-                            text-align: center;
-                        }
-                        &::before {
-                            content: "";
-                           
-                        }
-        
-                        &::after {
-                            content: "";
-                            
-                        }
+
+                        color: #000000;
+
+                        margin-top: 10px;
+                    }
+
+                    .stars-group {
+                        width: 170px;
+                        height: 1px;
+                        border-top: 1px solid #000;
+                        padding-top: 12px;
+                        margin-top: -3px;
                     }
                 }
-        
-                h3 {
-                    font-weight: 700;
-                    font-size: 20px;
-                    line-height: 24px;
-        
-        
-                    text-align: center;
-                    text-transform: uppercase;
-        
-                    color: #000000;
-        
-                    margin-top: 10px;
-                }
-        
-                .stars-group {
-                    width: 170px;
-                    height: 1px;
-                    border-top: 1px solid #000;
-                    padding-top: 12px;
-                    margin-top: -3px;
-                }
-            }
-        
-            .form-content {
-                .input-container {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
-        
-                    .sinput {
-                        flex-basis: 49%;
-                        box-sizing: border-box;
-                        margin-bottom: 30px!important;
-                        @media screen and (max-width: 768px) {
-                            flex-basis: 100%;
-                            padding: 24px;
-                            font-size: 20px;
+
+                .form-content {
+                    .input-container {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+
+                        .sinput {
+                            flex-basis: 49%;
+                            box-sizing: border-box;
+                            margin-bottom: 30px !important;
+                            padding: 20px 40px;
+                            @media screen and (max-width: 768px) {
+                                flex-basis: 100%;
+                                padding: 24px;
+                                font-size: 20px;
+                            }
+
                         }
-        
                     }
-                }
-        
-                button {
-                    border: none;
-                    padding: 30px 40px;
-                    color: #fff;
-                    font-weight: 800;
-                    font-size: 18.2535px;
-                    line-height: 22px;
-                    text-transform: uppercase;
-                    cursor: pointer;
-        
-                    @media (max-width: 767px) {
-                        width: 300px;
-                        font-size: 14px;
-                        padding: 20px 30px;
+
+                    button {
+                        border: none;
+                        padding: 30px 40px;
+                        color: #fff;
+                        font-weight: 800;
+                        font-size: 18.2535px;
+                        line-height: 22px;
+                        text-transform: uppercase;
+                        cursor: pointer;
+
+                        @media (max-width: 767px) {
+                            width: 300px;
+                            font-size: 14px;
+                            padding: 20px 30px;
+                        }
                     }
                 }
             }
@@ -198,9 +205,9 @@
                 text-transform: uppercase;
 
                 &::before {
-                    content: "Besuchen Sie uns gern in unserem ";
+                    content: "besuchen sie uns gern in berlin";
                     position: absolute;
-                    top: -45px;
+                    top: -27px;
                     left: 0px;
                     z-index: -1;
                     font-style: normal;
@@ -210,25 +217,7 @@
                     text-align: center;
                     text-transform: uppercase;
                     color: transparent;
-                    font-family: arial;
-                    white-space: nowrap;
-                    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
-                }
-
-                &::after {
-                    content: "Büro in Gera in der Amthorpassage";
-                    position: absolute;
-                    top: 19px;
-                    left: 0px;
-                    z-index: -1;
-                    font-style: normal;
-                    font-weight: 800;
-                    font-size: 64px;
-                    line-height: 61px;
-                    text-align: center;
-                    text-transform: uppercase;
-                    color: transparent;
-                    font-family: arial;
+                    font-family: 'GothamPro', sans-serif;
                     white-space: nowrap;
                     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.493);
                 }
@@ -388,7 +377,7 @@
 
                 p {
                     font-weight: 400;
-                    font-size: 20px;
+                    font-size: 19px;
                     line-height: 125%;
                     color: #000000;
                     margin-bottom: 44px;
