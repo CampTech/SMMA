@@ -2443,7 +2443,7 @@ a {
 .download-content-section .section-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .download-content-section .section-content .item {
   display: flex;
@@ -2451,10 +2451,12 @@ a {
   align-items: center;
   justify-content: center;
   margin: 10px;
+  margin-right: 90px;
 }
 @media screen and (max-width: 768px) {
   .download-content-section .section-content .item {
     margin-bottom: 40px;
+    margin-right: 0;
   }
 }
 .download-content-section .section-content .item span {

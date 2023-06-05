@@ -89,7 +89,7 @@
     .section-content {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: center;
 
         .item {
             display: flex;
@@ -98,9 +98,11 @@
             justify-content: center;
 
             margin: 10px;
+            margin-right: 90px;
 
             @media screen and (max-width: 768px) {
                 margin-bottom: 40px;
+                margin-right: 0;
             }
 
             span {
